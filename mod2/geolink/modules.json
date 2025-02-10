@@ -1,0 +1,729 @@
+{
+  "gbo": [
+    {
+      "name": "Award",
+      "entities": [
+        "http://gbo#hasProgramManager",
+        "http://gbo#hasParticipant",
+        "http://gbo#hasSponsor",
+        "http://gbo#hasCoPrincipalInvestigator",
+        "http://gbo#Award",
+        "http://gbo#hasPrincipalInvestigator",
+        "http://gbo#isAwardOf"
+      ]
+    },
+    {
+      "name": "Program",
+      "entities": [
+        "http://gbo#Program",
+        "http://gbo#hasProgramManager",
+        "http://gbo#hasParticipant",
+        "http://gbo#hasEndDate",
+        "http://gbo#isProgramOf",
+        "http://gbo#hasAcronym",
+        "http://gbo#hasIdentifier",
+        "http://gbo#hasCoPrincipalInvestigator",
+        "http://gbo#hasPrincipalInvestigator"
+      ]
+    },
+    {
+      "name": "Meeting",
+      "entities": [
+        "http://gbo#hasMeetingParticipant",
+        "http://gbo#Meeting",
+        "http://gbo#hasStartDate",
+        "http://gbo#hasPlace"
+      ]
+    },
+    {
+      "name": "Person",
+      "entities": [
+        "http://gbo#hasEmailAddress",
+        "http://gbo#isMeetingParticipantOf",
+        "http://gbo#isCoPrincipalInvestigatorOf",
+        "http://gbo#isCollectorOf",
+        "http://gbo#hasAffiliation",
+        "http://gbo#isCreatorOf",
+        "http://gbo#hasNamePrefix",
+        "http://gbo#isEditorOf",
+        "http://gbo#hasMiddleName",
+        "http://gbo#isRegistrantOf",
+        "http://gbo#isContributorOf",
+        "http://gbo#hasGivenName",
+        "http://gbo#isPrincipalInvestigatorOf",
+        "http://gbo#Person",
+        "http://gbo#isAuthorOf",
+        "http://gbo#hasFamilyName",
+        "http://gbo#performs",
+        "http://gbo#isObserverIn",
+        "http://gbo#isCuratorOf",
+        "http://gbo#isOwnerOf",
+        "http://gbo#hasFullName",
+        "http://gbo#hasNameSuffix",
+        "http://gbo#isScientistOf",
+        "http://gbo#isStudentIn",
+        "http://gbo#isChiefScientistOf",
+        "http://gbo#isPublisherOf",
+        "http://gbo#isPilotOf",
+        "http://gbo#isTechnicianOf",
+        "http://gbo#isProgramManagerOf",
+        "http://gbo#isRightsHolderOf",
+        "http://gbo#isCoChiefScientistOf",
+        "http://gbo#isEducatorIn"
+      ],
+      "submodules": [
+        {
+          "name": "Participant",
+          "entities": [
+            "http://gbo#hasRoleType",
+            "http://gbo#hasParticipationStartTime",
+            "http://gbo#RoleType",
+            "http://gbo#hasParticipationEndTime",
+            "http://gbo#hasAffiliation",
+            "http://gbo#isParticipantOf",
+            "http://gbo#Participant",
+            "http://gbo#isRoleTypeOf",
+            "http://gbo#isPerformedBy"
+          ]
+        }
+      ]
+    },
+    {
+      "name": "Document",
+      "entities": [
+        "http://gbo#hasCruise",
+        "http://gbo#hasDocumentType",
+        "http://gbo#hasAuthor",
+        "http://gbo#DocumentType",
+        "http://gbo#hasGeometryAsWktLiteral",
+        "http://gbo#hasRepository",
+        "http://gbo#hasPublisher",
+        "http://gbo#isSchduelerOf",
+        "http://gbo#hasDive",
+        "http://gbo#hasVessel",
+        "http://gbo#Document",
+        "http://gbo#hasCitationText",
+        "http://gbo#isDocumentTypeOf",
+        "http://gbo#hasPart",
+        "http://gbo#hasRightsHolder",
+        "http://gbo#hasProject",
+        "http://gbo#hasPlace",
+        "http://gbo#hasPublicationDate",
+        "http://gbo#hasAbstract",
+        "http://gbo#hasEditor"
+      ]
+    },
+    {
+      "name": "Instrument",
+      "entities": [
+        "http://gbo#Instrument",
+        "http://gbo#hasInstrumentType",
+        "http://gbo#hasVendor",
+        "http://gbo#hasModel",
+        "http://gbo#InstrumentType",
+        "http://gbo#isInstrumentOf",
+        "http://gbo#isInstrumentTypeOf"
+      ]
+    },
+    {
+      "name": "Dive",
+      "entities": [
+        "http://gbo#Dive",
+        "http://gbo#hasGeometryAsWktLiteral",
+        "http://gbo#hasMaxDepth",
+        "http://gbo#isSubmersibleOf",
+        "http://gbo#hasEndTime",
+        "http://gbo#hasCruise",
+        "http://gbo#hasObserver",
+        "http://gbo#hasPilot",
+        "http://gbo#isOperationAreaOf",
+        "http://gbo#hasStartTime",
+        "http://gbo#hasOperationArea",
+        "http://gbo#hasSubmersible",
+        "http://gbo#isDiveOf",
+        "http://gbo#hasScheduler",
+        "http://gbo#hasDuration"
+      ]
+    },
+    {
+      "name": "MeasurementType",
+      "entities": [
+        "http://gbo#isMeasurementTypeOf",
+        "http://gbo#MeasurementType"
+      ]
+    },
+    {
+      "name": "DigitalObject",
+      "entities": [
+        "http://gbo#hasUploadDate",
+        "http://gbo#isPartOf",
+        "http://gbo#hasFormat",
+        "http://gbo#hasCreator",
+        "http://gbo#hasChecksum",
+        "http://gbo#hasCruise",
+        "http://gbo#hasLandingPage",
+        "http://gbo#hasChecksumAlgorithm",
+        "http://gbo#hasTitle",
+        "http://gbo#hasAuthoritativeDigitalRepository",
+        "http://gbo#hasOriginDigitalRepository",
+        "http://gbo#hasGeometryAsWktLiteral",
+        "http://gbo#hasRepository",
+        "http://gbo#hasSource",
+        "http://gbo#hasDive",
+        "http://gbo#hasMeasurementType",
+        "http://gbo#DigitalObject",
+        "http://gbo#hasContributor",
+        "http://gbo#hasRightsHolder",
+        "http://gbo#hasReplicaDigitalRepository",
+        "http://gbo#hasByteLength",
+        "http://gbo#hasInstrument",
+        "http://gbo#hasEditor"
+      ]
+    },
+    {
+      "name": "Format",
+      "entities": [
+        "http://gbo#Format",
+        "http://gbo#isFormatOf",
+        "http://gbo#hasFormatType"
+      ]
+    },
+    {
+      "name": "Misc",
+      "entities": [
+        "http://gbo#weakCoReferentOf",
+        "http://gbo#strongCoReferentOf",
+        "http://gbo#coReferentOf",
+        "http://gbo#hasContact",
+        "http://gbo#isContactOf",
+        "http://gbo#hasDescription",
+        "http://purl.org/dc/terms/description"
+      ]
+    },
+    {
+      "name": "GeoFeature",
+      "entities": [
+        "http://gbo#GeoFeature",
+        "http://gbo#hasPosition",
+        "http://gbo#hasGeometryAsWktLiteral",
+        "http://gbo#hasGeoFeatureType",
+        "http://gbo#GeoFeatureType",
+        "http://gbo#isGeoFeatureTypeOf"
+      ]
+    },
+    {
+      "name": "Place",
+      "entities": [
+        "http://gmo#hasSpatialFootprint",
+        "http://gbo#isPlaceTypeOf",
+        "http://gbo#PlaceType",
+        "http://gbo#Place",
+        "http://gbo#hasGeometryAsWktLiteral",
+        "http://gbo#isPlaceOf",
+        "http://gbo#hasPlaceType",
+        "http://gbo#isOperationAreaOf",
+        "http://gbo#Station",
+        "http://gbo#isCountryOf",
+        "http://gbo#Country"
+      ]
+    },
+    {
+      "name": "Repository",
+      "entities": [
+        "http://gbo#isPhysicalRepositoryOf",
+        "http://gbo#Repository",
+        "http://gbo#isReplicaDigitalRepositoryOf",
+        "http://gbo#isAuthoritativeDigitalRepositoryOf",
+        "http://gbo#isRepositoryOf",
+        "http://gbo#isOriginDigitalRepositoryOf"
+      ]
+    },
+    {
+      "name": "Platform",
+      "entities": [
+        "http://gbo#hasPlatformType",
+        "http://gbo#hasOwner",
+        "http://gbo#isSubmersibleOf",
+        "http://gbo#isVesselOf",
+        "http://gbo#Platform",
+        "http://gbo#isPlatformTypeOf",
+        "http://gbo#Submersible",
+        "http://gbo#Vessel",
+        "http://gbo#PlatformType"
+      ]
+    },
+    {
+      "name": "Cruise",
+      "entities": [
+        "http://gbo#hasParticipant",
+        "http://gbo#hasRelatedCruise",
+        "http://gbo#hasEndPortCall",
+        "http://gbo#hasStudent",
+        "http://gbo#hasChiefScientist",
+        "http://gbo#hasStartPortCall",
+        "http://gbo#isCruiseTypeOf",
+        "http://gbo#hasMidPortCall",
+        "http://gbo#hasCoChiefScientist",
+        "http://gbo#isCruiseOf",
+        "http://gbo#hasProgram",
+        "http://gbo#hasVessel",
+        "http://gbo#isSchduelerOf",
+        "http://gbo#Cruise",
+        "http://gbo#hasAward",
+        "http://gbo#hasOperator",
+        "http://gbo#hasObserver",
+        "http://gbo#hasCruiseType",
+        "http://gbo#hasTrack",
+        "http://gbo#hasScheduler",
+        "http://gbo#CruiseType",
+        "http://gbo#hasTechnician",
+        "http://gbo#hasEducator",
+        "http://gbo#hasProject",
+        "http://gbo#hasScientist"
+      ]
+    },
+    {
+      "name": "PhysicalSample",
+      "entities": [
+        "http://gbo#hasParticipant",
+        "http://gbo#hasPosition",
+        "http://gbo#hasSamplingMethod",
+        "http://gbo#hasDataset",
+        "http://gbo#StratigraphicUnit",
+        "http://gbo#hasRegistrant",
+        "http://gbo#isStratigraphicUnitOf",
+        "http://gbo#hasStratigraphicUnit",
+        "http://gbo#hasCruise",
+        "http://gbo#hasPhysicalRepository",
+        "http://gbo#isSampleTypeOf",
+        "http://gbo#hasAuthoritativeDigitalRepository",
+        "http://gbo#hasSampleType",
+        "http://gbo#hasMaterial",
+        "http://gbo#hasOriginDigitalRepository",
+        "http://gbo#hasGeometryAsWktLiteral",
+        "http://gbo#hasRepository",
+        "http://gbo#hasTectonicSetting",
+        "http://gbo#hasDive",
+        "http://gbo#PhysicalSampleType",
+        "http://gbo#hasCollector",
+        "http://gbo#hasGeologicAge",
+        "http://gbo#hasCurator",
+        "http://gbo#hasRegistrationDate",
+        "http://gbo#hasElevationDescription",
+        "http://gbo#hasMaterialType",
+        "http://gbo#hasCollectionStartDate",
+        "http://gbo#isGeologicAgeOf",
+        "http://gbo#hasFeatureOfInterest",
+        "http://gbo#hasLastUpdateDate",
+        "http://gbo#hasCollectionEndDate",
+        "http://gbo#hasRightsHolder",
+        "http://gbo#hasRelatedSample",
+        "http://gbo#hasReplicaDigitalRepository",
+        "http://gbo#hasPublicationDate",
+        "http://gbo#PhysicalSample",
+        "http://gbo#originatesFrom",
+        "http://gbo#hasEditor"
+      ],
+      "submodules": [
+        {
+          "name": "GeologicAge",
+          "entities": [
+            "http://gbo#hasGeologicAgeUnit",
+            "http://gbo#GeologicAge",
+            "http://gbo#hasLastAppearance",
+            "http://gbo#accordingTo",
+            "http://gbo#isGeologicAgeOf",
+            "http://gbo#GeologicAgeAppearance",
+            "http://gbo#hasGeologicAgeValue",
+            "http://gbo#isFirstAppearanceOf",
+            "http://gbo#isLastAppearanceOf",
+            "http://gbo#hasFirstAppearance",
+            "http://gbo#hasStageName"
+          ]
+        }
+      ]
+    },
+    {
+      "name": "Dataset",
+      "entities": [
+        "http://gbo#hasUploadDate",
+        "http://gbo#hasParticipant",
+        "http://gbo#containsDataset",
+        "http://gbo#hasCreator",
+        "http://gbo#hasCruise",
+        "http://gbo#hasLandingPage",
+        "http://gbo#hasAuthoritativeDigitalRepository",
+        "http://gbo#isContainedDatasetBy",
+        "http://gbo#hasOriginDigitalRepository",
+        "http://gbo#hasGeometryAsWktLiteral",
+        "http://gbo#hasRepository",
+        "http://gbo#hasDive",
+        "http://gbo#isDatasetOf",
+        "http://gbo#hasMeasurementType",
+        "http://gbo#Dataset",
+        "http://gbo#hasPart",
+        "http://gbo#hasRightsHolder",
+        "http://gbo#hasProject",
+        "http://gbo#hasReplicaDigitalRepository",
+        "http://gbo#hasInstrument",
+        "http://gbo#hasEditor"
+      ]
+    },
+    {
+      "name": "Identifier",
+      "entities": [
+        "http://gbo#hasIdentifierResolveURL",
+        "http://gbo#isIdentifierOf",
+        "http://gbo#hasIdentifierScheme",
+        "http://gbo#hasIdentifierValue",
+        "http://gbo#Identifier",
+        "http://gbo#isIdentifierSchemeOf",
+        "http://gbo#IdentifierScheme"
+      ]
+    },
+    {
+      "name": "Organization",
+      "entities": [
+        "http://gbo#isPublisherOf",
+        "http://gbo#Organization",
+        "http://gbo#isOwnerOf",
+        "http://gbo#isPhysicalRepositoryOf",
+        "http://gbo#hasSubOrganization",
+        "http://gbo#isAuthorOf",
+        "http://gbo#isOperatorOf",
+        "http://gbo#isSchedulerOf",
+        "http://gbo#isCreatorOf",
+        "http://gbo#isSponsorOf",
+        "http://gbo#isAffiliationOf",
+        "http://gbo#isRightsHolderOf",
+        "http://gbo#isSubOrganizationOf",
+        "http://gbo#isVendorOf"
+      ]
+    },
+    {
+      "name": "Dive",
+      "entities": [
+        "http://gbo#fromCountry"
+      ]
+    },
+    {
+      "name": "PortCall",
+      "entities": [
+        "http://gbo#isStartPortCallOf",
+        "http://gbo#isMidPortCallOf",
+        "http://gbo#isEndPortCallOf",
+        "http://gbo#isPortOf",
+        "http://gbo#hasTimeStamp",
+        "http://gbo#PortCall",
+        "http://gbo#atPort"
+      ]
+    },
+    {
+      "name": "Feature",
+      "entities": [
+        "http://gbo#FeatureType",
+        "http://gbo#isOriginOf",
+        "http://gbo#Feature",
+        "http://gbo#isFeatureTypeOf",
+        "http://gbo#hasFeatureType",
+        "http://gbo#isFeatureOfInterestOf"
+      ]
+    }
+  ],
+  "gmo": [
+    {
+      "name": "Program",
+      "entities": [
+        "http://gmo#endsOnDate",
+        "http://gmo#Program",
+        "http://gmo#startsOnDate"
+      ]
+    },
+    {
+      "name": "FundingAward",
+      "entities": [
+        "http://gmo#endsOnDate",
+        "http://gmo#hasAwardAmount",
+        "http://gmo#FundingAward"
+      ],
+      "submodules": [
+        {
+          "name": "AwardAmount",
+          "entities": [
+            "http://gmo#AwardAmount",
+            "http://gmo#CurrencyCode",
+            "http://gmo#hasCurrencyCode",
+            "http://gmo#hasCurrencyValue"
+          ]
+        }
+      ]
+    },
+    {
+      "name": "TimeInstant",
+      "entities": [
+        "http://www.w3.org/2006/time#Instant"
+      ]
+    },
+    {
+      "name": "Person",
+      "entities": [
+        "http://gmo#Person",
+        "http://gmo#hasPersonalInfoItem"
+      ],
+      "submodules": [
+        {
+          "name": "PersonalInfoItem",
+          "entities": [
+            "http://gmo#startsAtTime",
+            "http://gmo#hasPersonName",
+            "http://gmo#firstOrGivenName",
+            "http://gmo#endsAtTime",
+            "http://gmo#familyOrSurname",
+            "http://gmo#hasValue",
+            "http://gmo#PersonalInfoItem",
+            "http://gmo#hasLiteralValue",
+            "http://gmo#fullName",
+            "http://gmo#PersonName"
+          ]
+        }
+      ]
+    },
+    {
+      "name": "MovingObject",
+      "entities": [
+        "http://gmo#MovingObject"
+      ]
+    },
+    {
+      "name": "Vessel",
+      "entities": [
+        "http://gmo#VesselBeam",
+        "http://gmo#VesselLength",
+        "http://gmo#hasProperty",
+        "http://gmo#describedBy",
+        "http://gmo#VesselDisplacement",
+        "http://gmo#Platform",
+        "http://gmo#Vessel",
+        "http://gmo#VesselDraft"
+      ]
+    },
+    {
+      "name": "InformationObject",
+      "entities": [
+        "http://gmo#alsoKnownAs",
+        "http://gmo#hasDescription",
+        "http://gmo#realizedBy",
+        "http://gmo#hasWebpage",
+        "http://gmo#hasCanonicalName",
+        "http://gmo#InformationObject",
+        "http://gmo#hasPrimaryIdentifier",
+        "http://gmo#hasAlternativeIdentifier"
+      ],
+      "submodules": [
+        {
+          "name": "InformationRealization",
+          "entities": [
+            "http://gmo#realizationAbout",
+            "http://gmo#InformationRealization"
+          ]
+        }
+      ]
+    },
+    {
+      "name": "Organization",
+      "entities": [
+        "http://gmo#hasSubOrganization",
+        "http://gmo#hasSite",
+        "http://gmo#Organization",
+        "http://gmo#describedBy"
+      ]
+    },
+    {
+      "name": "Place",
+      "entities": [
+        "http://gmo#Place"
+      ],
+      "submodules": [
+        {
+          "name": "Port",
+          "entities": [
+            "http://gmo#hasSpatialFootprint",
+            "http://gmo#Port"
+          ]
+        }
+      ]
+    },
+    {
+      "name": "Misc",
+      "entities": [
+        "http://gmo#hasName",
+        "http://www.opengis.net/ont/geosparql#Geometry",
+        "http://gmo#performsAgentRole",
+        "http://gmo#providesAgentRole",
+        "http://gmo#hasedoal:LiteralValue",
+        "http://www.w3.org/2001/XMLSchema#anyURI",
+        "http://ns.inria.org/edoal/1.0/#equals",
+        "http://gmo#DASE_RULE",
+        "http://gmo#hasIdentifierScheme",
+        "http://gmo#r_Port"
+      ]
+    },
+    {
+      "name": "Identifier",
+      "entities": [
+        "http://gmo#Identifier",
+        "http://gmo#hasIdentifierValue"
+      ]
+    },
+    {
+      "name": "AgentRole",
+      "entities": [
+        "http://gmo#AgencyProgramManagerRole",
+        "http://gmo#CoPrincipalInvestigatorRole",
+        "http://gmo#hasAgentRoleType",
+        "http://gmo#ContributorRole",
+        "http://gmo#AgentRoleType",
+        "http://gmo#AgentRole",
+        "http://gmo#CollectorRole",
+        "http://gmo#RegistrantRole",
+        "http://gmo#ProgramManagerRole",
+        "http://gmo#DataManagerRole",
+        "http://gmo#SponsorRole",
+        "http://gmo#AffiliationRole",
+        "http://gmo#EditorRole",
+        "http://gmo#RightsHolderRole",
+        "http://gmo#VesselOwnerRole",
+        "http://gmo#hasTemporalExtent",
+        "http://gmo#PrincipalInvestigatorRole",
+        "http://gmo#CuratorRole",
+        "http://gmo#performedBy",
+        "http://gmo#agentRoleIn",
+        "http://gmo#ContactRole"
+      ]
+    },
+    {
+      "name": "Event",
+      "entities": [
+        "http://gmo#startsAtTime",
+        "http://gmo#occursAtPlace",
+        "http://gmo#hasInputFeature",
+        "http://gmo#endsAtTime",
+        "http://gmo#Event",
+        "http://gmo#occursAtTime"
+      ],
+      "submodules": [
+        {
+          "name": "Cruise",
+          "entities": [
+            "http://gmo#associatedWithProgram",
+            "http://gmo#fundedBy",
+            "http://gmo#hasRelatedCruise",
+            "http://gmo#undertakenBy",
+            "http://gmo#hasTrajectory",
+            "http://gmo#Cruise"
+          ]
+        },
+        {
+          "name": "SamplingProcess",
+          "entities": [
+            "http://gmo#SamplingProcess"
+          ]
+        }
+      ]
+    },
+    {
+      "name": "Fix",
+      "entities": [
+        "http://gmo#hasPosition",
+        "http://gmo#hasDataSource",
+        "http://gmo#atPort",
+        "http://gmo#StartingFix",
+        "http://gmo#EndingFix",
+        "http://gmo#Fix",
+        "http://gmo#hasNextFix",
+        "http://gmo#atTime",
+        "http://gmo#hasAttribute"
+      ]
+    },
+    {
+      "name": "PhysicalSample",
+      "entities": [
+        "http://gmo#PhysicalSample",
+        "http://gmo#derivedUsing",
+        "http://gmo#hasProperty",
+        "http://gmo#originatesFrom"
+      ]
+    },
+    {
+      "name": "Geometry",
+      "entities": [
+        "http://gmo#Geometry"
+      ]
+    },
+    {
+      "name": "Agent",
+      "entities": [
+        "http://gmo#Agent"
+      ]
+    },
+    {
+      "name": "Trajectory",
+      "entities": [
+        "http://gmo#traveledBy",
+        "http://gmo#CruiseTrajectory",
+        "http://gmo#hasFix",
+        "http://gmo#hasSegment",
+        "http://gmo#Trajectory"
+      ]
+    },
+    {
+      "name": "Segment",
+      "entities": [
+        "http://gmo#startsFromFix",
+        "http://gmo#Segment",
+        "http://gmo#traversedBy",
+        "http://gmo#hasAttribute",
+        "http://gmo#endsAtFix"
+      ]
+    },
+    {
+      "name": "Point",
+      "entities": [
+        "http://gmo#Position",
+        "http://www.opengis.net/ont/gml#Point"
+      ]
+    },
+    {
+      "name": "TemporalEntity",
+      "entities": [
+        "http://www.w3.org/2006/time#TemporalEntity"
+      ]
+    },
+    {
+      "name": "Property",
+      "entities": [
+        "http://gmo#PropertyUnit",
+        "http://gmo#hasUnit",
+        "http://gmo#Property"
+      ]
+    },
+    {
+      "name": "Attribute",
+      "entities": [
+        "http://gmo#Attribute"
+      ]
+    },
+    {
+      "name": "Source",
+      "entities": [
+        "http://gmo#Source"
+      ]
+    },
+    {
+      "name": "Feature",
+      "entities": [
+        "http://gmo#Feature"
+      ]
+    }
+  ]
+}

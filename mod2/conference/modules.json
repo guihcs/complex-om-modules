@@ -1,0 +1,1036 @@
+{
+  "cmt": [
+    {
+      "name": "Conference",
+      "entities": [
+        "http://cmt#date",
+        "http://cmt#virtualMeetingEnabledBy",
+        "http://cmt#hasConferenceMember",
+        "http://cmt#siteURL",
+        "http://cmt#paperAssignmentFinalizedBy",
+        "http://cmt#acceptsHardcopySubmissions",
+        "http://cmt#paperAssignmentToolsRunBy",
+        "http://cmt#hardcopyMailingManifestsPrintedBy",
+        "http://cmt#reviewsPerPaper",
+        "http://cmt#Conference",
+        "http://cmt#detailsEnteredBy",
+        "http://cmt#reviewerBiddingStartedBy",
+        "http://cmt#reviewCriteriaEnteredBy",
+        "http://cmt#logoURL"
+      ]
+    },
+    {
+      "name": "Bid",
+      "entities": [
+        "http://cmt#Bid",
+        "http://cmt#adjustedBy"
+      ]
+    },
+    {
+      "name": "Document",
+      "entities": [
+        "http://cmt#Document"
+      ],
+      "submodules": [
+        {
+          "name": "Paper",
+          "entities": [
+            "http://cmt#rejectedBy",
+            "http://cmt#PaperFullVersion",
+            "http://cmt#readByReviewer",
+            "http://cmt#hasCo-author",
+            "http://cmt#hasSubjectArea",
+            "http://cmt#PaperAbstract",
+            "http://cmt#hasAuthor",
+            "http://cmt#hasDecision",
+            "http://cmt#paperID",
+            "http://cmt#assignedTo",
+            "http://cmt#title",
+            "http://cmt#Paper",
+            "http://cmt#hasBid",
+            "http://cmt#acceptedBy",
+            "http://cmt#SubjectArea",
+            "http://cmt#readByMeta-Reviewer"
+          ]
+        },
+        {
+          "name": "Review",
+          "entities": [
+            "http://cmt#Review",
+            "http://cmt#writtenBy",
+            "http://cmt#Meta-Review"
+          ]
+        }
+      ]
+    },
+    {
+      "name": "Person",
+      "entities": [
+        "http://cmt#User",
+        "http://cmt#Administrator",
+        "http://cmt#email",
+        "http://cmt#Person",
+        "http://cmt#printHardcopyMailingManifests",
+        "http://cmt#acceptPaper",
+        "http://cmt#runPaperAssignmentTools",
+        "http://cmt#finalizePaperAssignment",
+        "http://cmt#setMaxPapers",
+        "http://cmt#addProgramCommitteeMember",
+        "http://cmt#enterReviewCriteria",
+        "http://cmt#enableVirtualMeeting",
+        "http://cmt#startReviewerBidding",
+        "http://cmt#rejectPaper",
+        "http://cmt#enterConferenceDetails",
+        "http://cmt#hasConflictOfInterest",
+        "http://cmt#assignReviewer"
+      ],
+      "submodules": [
+        {
+          "name": "Author",
+          "entities": [
+            "http://cmt#co-writePaper",
+            "http://cmt#Author",
+            "http://cmt#submitPaper",
+            "http://cmt#Co-author",
+            "http://cmt#AuthorNotReviewer",
+            "http://cmt#writePaper",
+            "http://cmt#markConflictOfInterest"
+          ]
+        },
+        {
+          "name": "Reviewer",
+          "entities": [
+            "http://cmt#ExternalReviewer",
+            "http://cmt#Meta-Reviewer",
+            "http://cmt#writeReview",
+            "http://cmt#Reviewer",
+            "http://cmt#adjustBid",
+            "http://cmt#assignedByAdministrator",
+            "http://cmt#readPaper",
+            "http://cmt#hasBeenAssigned",
+            "http://cmt#markConflictOfInterest",
+            "http://cmt#assignedByReviewer",
+            "http://cmt#assignExternalReviewer"
+          ]
+        },
+        {
+          "name": "ProgramCommittee",
+          "entities": [
+            "http://cmt#addedBy",
+            "http://cmt#maxPapers",
+            "http://cmt#endReview",
+            "http://cmt#ConferenceMember",
+            "http://cmt#memberOfConference",
+            "http://cmt#ProgramCommitteeMember",
+            "http://cmt#Chairman",
+            "http://cmt#ConferenceChair",
+            "http://cmt#AssociatedChair",
+            "http://cmt#hasProgramCommitteeMember",
+            "http://cmt#ProgramCommitteeChair",
+            "http://cmt#markConflictOfInterest",
+            "http://cmt#ProgramCommittee",
+            "http://cmt#memberOfProgramCommittee"
+          ]
+        }
+      ]
+    },
+    {
+      "name": "Decision",
+      "entities": [
+        "http://cmt#Acceptance",
+        "http://cmt#Decision",
+        "http://cmt#Rejection"
+      ]
+    },
+    {
+      "name": "Name",
+      "entities": [
+        "http://cmt#name"
+      ]
+    },
+    {
+      "name": "Preference",
+      "entities": [
+        "http://cmt#Preference"
+      ]
+    }
+  ],
+  "ekaw": [
+    {
+      "name": "Conference",
+      "entities": [
+        "http://ekaw#Conference"
+      ]
+    },
+    {
+      "name": "Document",
+      "entities": [
+        "http://ekaw#updatedVersionOf",
+        "http://ekaw#Invited_Talk_Abstract",
+        "http://ekaw#hasUpdatedVersion",
+        "http://ekaw#Flyer",
+        "http://ekaw#Proceedings",
+        "http://ekaw#Programme_Brochure",
+        "http://ekaw#Document",
+        "http://ekaw#Web_Site",
+        "http://ekaw#Multi-author_Volume",
+        "http://ekaw#listsEvent",
+        "http://ekaw#writtenBy",
+        "http://ekaw#Conference_Proceedings"
+      ],
+      "submodules": [
+        {
+          "name": "Paper",
+          "entities": [
+            "http://ekaw#Rejected_Paper",
+            "http://ekaw#Industrial_Paper",
+            "http://ekaw#Workshop_Paper",
+            "http://ekaw#Accepted_Paper",
+            "http://ekaw#Tutorial_Abstract",
+            "http://ekaw#Poster_Paper",
+            "http://ekaw#Submitted_Paper",
+            "http://ekaw#Camera_Ready_Paper",
+            "http://ekaw#Abstract",
+            "http://ekaw#writtenBy",
+            "http://ekaw#Evaluated_Paper",
+            "http://ekaw#Regular_Paper",
+            "http://ekaw#Assigned_Paper",
+            "http://ekaw#hasReview",
+            "http://ekaw#Demo_Paper",
+            "http://ekaw#Paper",
+            "http://ekaw#Conference_Paper"
+          ]
+        },
+        {
+          "name": "Review",
+          "entities": [
+            "http://ekaw#reviewOfPaper",
+            "http://ekaw#Neutral_Review",
+            "http://ekaw#Positive_Review",
+            "http://ekaw#Negative_Review",
+            "http://ekaw#reviewWrittenBy",
+            "http://ekaw#hasReviewer",
+            "http://ekaw#Review"
+          ]
+        }
+      ]
+    },
+    {
+      "name": "Person",
+      "entities": [
+        "http://ekaw#publisherOf",
+        "http://ekaw#Paper_Author",
+        "http://ekaw#organises",
+        "http://ekaw#authorOf",
+        "http://ekaw#reviewerOfPaper",
+        "http://ekaw#Person",
+        "http://ekaw#Proceedings_Publisher",
+        "http://ekaw#Agency_Staff_Member",
+        "http://ekaw#Student"
+      ],
+      "submodules": [
+        {
+          "name": "Conference_Participant",
+          "entities": [
+            "http://ekaw#Conference_Participant",
+            "http://ekaw#Demo_Chair",
+            "http://ekaw#Presenter",
+            "http://ekaw#Late-Registered_Participant",
+            "http://ekaw#OC_Member",
+            "http://ekaw#OC_Chair",
+            "http://ekaw#Invited_Speaker",
+            "http://ekaw#Early-Registered_Participant"
+          ]
+        },
+        {
+          "name": "PC_Member",
+          "entities": [
+            "http://ekaw#Session_Chair",
+            "http://ekaw#Possible_Reviewer",
+            "http://ekaw#PC_Member",
+            "http://ekaw#SC_Member",
+            "http://ekaw#Tutorial_Chair",
+            "http://ekaw#PC_Chair",
+            "http://ekaw#Workshop_Chair"
+          ]
+        },
+        {
+          "name": "Organisation",
+          "entities": [
+            "http://ekaw#Academic_Institution",
+            "http://ekaw#Organising_Agency",
+            "http://ekaw#Research_Institute",
+            "http://ekaw#University",
+            "http://ekaw#technicallyOrganises",
+            "http://ekaw#scientificallyOrganises",
+            "http://ekaw#Organisation"
+          ]
+        }
+      ]
+    },
+    {
+      "name": "Topic",
+      "entities": [
+        "http://ekaw#topicCoveredBy",
+        "http://ekaw#coversTopic",
+        "http://ekaw#ResearchTopic",
+        "http://ekaw#Research_Topic"
+      ]
+    },
+    {
+      "name": "Event",
+      "entities": [
+        "http://ekaw#hasEvent",
+        "http://ekaw#organisedBy",
+        "http://ekaw#eventOnList",
+        "http://ekaw#heldIn",
+        "http://ekaw#partOfEvent",
+        "http://ekaw#Event"
+      ],
+      "submodules": [
+        {
+          "name": "Social_Event",
+          "entities": [
+            "http://ekaw#Social_Event",
+            "http://ekaw#Conference_Banquet",
+            "http://ekaw#Conference_Trip"
+          ]
+        },
+        {
+          "name": "Scientific_Event",
+          "entities": [
+            "http://ekaw#Workshop",
+            "http://ekaw#Track",
+            "http://ekaw#paperPresentedAs",
+            "http://ekaw#Tutorial",
+            "http://ekaw#Invited_Talk",
+            "http://ekaw#Individual_Presentation",
+            "http://ekaw#Contributed_Talk",
+            "http://ekaw#Conference_Session",
+            "http://ekaw#Industrial_Session",
+            "http://ekaw#presentationOfPaper",
+            "http://ekaw#Scientific_Event"
+          ],
+          "submodules": [
+            {
+              "name": "Session",
+              "entities": [
+                "http://ekaw#Poster_Session",
+                "http://ekaw#Workshop_Session",
+                "http://ekaw#Regular_Session",
+                "http://ekaw#Session",
+                "http://ekaw#Demo_Session"
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "name": "Misc",
+      "entities": [
+        "http://ekaw#hasPart",
+        "http://ekaw#references",
+        "http://ekaw#technicallyOrganisedBy",
+        "http://ekaw#scientificallyOrganisedBy",
+        "http://ekaw#partOf",
+        "http://ekaw#referencedIn",
+        "http://ekaw#inverse_of_partOf_7",
+        "http://ekaw#volumeContainsPaper",
+        "http://ekaw#paperInVolume"
+      ]
+    },
+    {
+      "name": "Location",
+      "entities": [
+        "http://ekaw#locationOf",
+        "http://ekaw#Location"
+      ]
+    }
+  ],
+  "edas": [
+    {
+      "name": "Conference",
+      "entities": [
+        "http://edas#startDate",
+        "http://edas#Conference",
+        "http://edas#manuscriptDueOn",
+        "http://edas#hasMember",
+        "http://edas#paperDueOn",
+        "http://edas#hasName",
+        "http://edas#TwoLevelConference",
+        "http://edas#endDate",
+        "http://edas#registrationDueOn",
+        "http://edas#hasCountry"
+      ]
+    },
+    {
+      "name": "Sponsorship",
+      "entities": [
+        "http://edas#hasCostCurrency",
+        "http://edas#providedBy",
+        "http://edas#hasCostAmount",
+        "http://edas#TravelGrant",
+        "http://edas#Sponsorship"
+      ]
+    },
+    {
+      "name": "ContactInformation",
+      "entities": [
+        "http://edas#hasPhone",
+        "http://edas#hasStreet",
+        "http://edas#hasCity",
+        "http://edas#hasPostalCode",
+        "http://edas#ContactInformation"
+      ]
+    },
+    {
+      "name": "Document",
+      "entities": [
+        "http://edas#Document",
+        "http://edas#relatesTo",
+        "http://edas#Review",
+        "http://edas#Programme",
+        "http://edas#belongsToEvent",
+        "http://edas#SlideSet"
+      ],
+      "submodules": [
+        {
+          "name": "Paper",
+          "entities": [
+            "http://edas#relatedToEvent",
+            "http://edas#RejectedPaper",
+            "http://edas#Paper",
+            "http://edas#PublishedPaper",
+            "http://edas#PendingPaper",
+            "http://edas#hasRating",
+            "http://edas#WithdrawnPaper",
+            "http://edas#ActivePaper",
+            "http://edas#isWrittenBy",
+            "http://edas#RatedPapers",
+            "http://edas#isReviewedBy",
+            "http://edas#AcceptedPaper"
+          ]
+        }
+      ]
+    },
+    {
+      "name": "PersonalHistory",
+      "entities": [
+        "http://edas#PersonalPublicationHistory",
+        "http://edas#PersonalReviewHistory",
+        "http://edas#PersonalHistory",
+        "http://edas#isReviewHistoryOf"
+      ]
+    },
+    {
+      "name": "Person",
+      "entities": [
+        "http://edas#Attendee",
+        "http://edas#hasRelatedDocument",
+        "http://edas#hasFirstName",
+        "http://edas#attendeeAt",
+        "http://edas#hasEmail",
+        "http://edas#isMemberOf",
+        "http://edas#hasBiography",
+        "http://edas#Person",
+        "http://edas#hasLastName"
+      ],
+      "submodules": [
+        {
+          "name": "Author",
+          "entities": [
+            "http://edas#Author",
+            "http://edas#Presenter",
+            "http://edas#hasRelatedPaper"
+          ]
+        },
+        {
+          "name": "ConferenceChair",
+          "entities": [
+            "http://edas#SessionChair",
+            "http://edas#ConferenceChair",
+            "http://edas#TPCMember",
+            "http://edas#initiates"
+          ]
+        },
+        {
+          "name": "Reviewer",
+          "entities": [
+            "http://edas#isReviewing",
+            "http://edas#hasReviewHistory",
+            "http://edas#Reviewer"
+          ]
+        }
+      ]
+    },
+    {
+      "name": "ReviewQuestion",
+      "entities": [
+        "http://edas#NumericalReviewQuestion",
+        "http://edas#TextualReviewQuestion",
+        "http://edas#ReviewQuestion"
+      ]
+    },
+    {
+      "name": "Topic",
+      "entities": [
+        "http://edas#RadioCommunicationsTopic",
+        "http://edas#SatelliteAndSpaceCommunicationsTopic",
+        "http://edas#SignalProcessingTopic",
+        "http://edas#ParallelAndDistributedComputingTopic",
+        "http://edas#SecurityTopic",
+        "http://edas#MicroelectronicsTopic",
+        "http://edas#isTopicOf",
+        "http://edas#MobileComputingTopic",
+        "http://edas#MedicineTopic",
+        "http://edas#WirelessCommunicationsTopic",
+        "http://edas#PerformanceTopic",
+        "http://edas#ComputerArchitectureTopic",
+        "http://edas#PowerlineTransmissionTopic",
+        "http://edas#CommunicationsTopic",
+        "http://edas#TestOnlyTopic",
+        "http://edas#CryptographyTopic",
+        "http://edas#OperatingTopicsystems",
+        "http://edas#CommunicationTheoryTopic",
+        "http://edas#AntennasTopic",
+        "http://edas#hasTopic",
+        "http://edas#Topic",
+        "http://edas#MultimediaTopic",
+        "http://edas#CADTopic"
+      ],
+      "submodules": [
+        {
+          "name": "ComputerNetworksTopic",
+          "entities": [
+            "http://edas#ComputerNetworksEnterpriseTopic",
+            "http://edas#ComputerNetworksSwitchingTopic",
+            "http://edas#ComputerNetworksAapplicationsTopic",
+            "http://edas#ComputerNetworksSecurityTopic",
+            "http://edas#ComputerNetworksSensorTopic",
+            "http://edas#ComputerNetworksTopic",
+            "http://edas#ComputerNetworksMeasurementsTopic",
+            "http://edas#ComputerNetworksOpticalTopic",
+            "http://edas#ComputerNetworksManagementTopic"
+          ]
+        }
+      ]
+    },
+    {
+      "name": "Country",
+      "entities": [
+        "http://edas#Country"
+      ]
+    },
+    {
+      "name": "ReviewRating",
+      "entities": [
+        "http://edas#AcceptRating",
+        "http://edas#ReviewRating",
+        "http://edas#RejectRating",
+        "http://edas#WeekRejectRating",
+        "http://edas#AccpetIfRoomRating"
+      ]
+    },
+    {
+      "name": "ConferenceEvent",
+      "entities": [
+        "http://edas#hasAttendee",
+        "http://edas#hasLocation",
+        "http://edas#hasEndDateTime",
+        "http://edas#hasProgramme",
+        "http://edas#ConferenceEvent",
+        "http://edas#hasStartDateTime"
+      ],
+      "submodules": [
+        {
+          "name": "NonAcademicEvent",
+          "entities": [
+            "http://edas#NonAcademicEvent",
+            "http://edas#Excursion",
+            "http://edas#SocialEvent",
+            "http://edas#ConferenceDinner",
+            "http://edas#Reception"
+          ],
+          "submodules": [
+            {
+              "name": "MealEvent",
+              "entities": [
+                "http://edas#MealEvent",
+                "http://edas#hasMenu",
+                "http://edas#MealMenu",
+                "http://edas#isMenuOf"
+              ]
+            },
+            {
+              "name": "BreakEvent",
+              "entities": [
+                "http://edas#FreeTimeBreak",
+                "http://edas#CoffeeBreak",
+                "http://edas#MealBreak",
+                "http://edas#BreakEvent"
+              ]
+            }
+          ]
+        },
+        {
+          "name": "AcademicEvent",
+          "entities": [
+            "http://edas#OrganizationalMeeting",
+            "http://edas#TalkEvent",
+            "http://edas#WelcomeTalk",
+            "http://edas#relatedToPaper",
+            "http://edas#hasCall",
+            "http://edas#PaperPresentation",
+            "http://edas#Workshop",
+            "http://edas#AcademicEvent",
+            "http://edas#ClosingTalk"
+          ]
+        }
+      ]
+    },
+    {
+      "name": "Organization",
+      "entities": [
+        "http://edas#AcademiaOrganization",
+        "http://edas#GovernmentOrganization",
+        "http://edas#Organization",
+        "http://edas#NGO",
+        "http://edas#IndustryOrganization",
+        "http://edas#isProviderOf"
+      ]
+    },
+    {
+      "name": "Call",
+      "entities": [
+        "http://edas#forEvent",
+        "http://edas#hasSubmissionInstructions",
+        "http://edas#Call",
+        "http://edas#CallForReviews",
+        "http://edas#CallForManuscripts",
+        "http://edas#hasSubmissionDeadline",
+        "http://edas#isInitiatedBy",
+        "http://edas#CallForPapers"
+      ]
+    },
+    {
+      "name": "Place",
+      "entities": [
+        "http://edas#DiningPlace",
+        "http://edas#AccommodationPlace",
+        "http://edas#Place",
+        "http://edas#ConferenceVenuePlace",
+        "http://edas#isLocationOf",
+        "http://edas#MeetingRoomPlace"
+      ]
+    },
+    {
+      "name": "ConferenceSession",
+      "entities": [
+        "http://edas#ConferenceSession"
+      ]
+    }
+  ],
+  "confOf": [
+    {
+      "name": "Person",
+      "entities": [
+        "http://confOf#Science_Worker",
+        "http://confOf#hasCountry",
+        "http://confOf#hasFirstName",
+        "http://confOf#Assistant",
+        "http://confOf#hasSurname",
+        "http://confOf#hasStreet",
+        "http://confOf#hasHomePage",
+        "http://confOf#Administrator",
+        "http://confOf#Scholar",
+        "http://confOf#hasEmail",
+        "http://confOf#Person",
+        "http://confOf#employedBy",
+        "http://confOf#studyAt",
+        "http://confOf#Volunteer",
+        "http://confOf#hasCity",
+        "http://confOf#hasPostalCode",
+        "http://confOf#hasPhone",
+        "http://confOf#Chair_PC",
+        "http://confOf#hasFax"
+      ],
+      "submodules": [
+        {
+          "name": "Author",
+          "entities": [
+            "http://confOf#writes",
+            "http://confOf#Author"
+          ]
+        },
+        {
+          "name": "Member_PC",
+          "entities": [
+            "http://confOf#Member_PC",
+            "http://confOf#expertOn",
+            "http://confOf#reviewes"
+          ]
+        },
+        {
+          "name": "Participant",
+          "entities": [
+            "http://confOf#earlyRegistration",
+            "http://confOf#Participant",
+            "http://confOf#Member",
+            "http://confOf#Student",
+            "http://confOf#Regular"
+          ]
+        },
+        {
+          "name": "Organization",
+          "entities": [
+            "http://confOf#hasStreet",
+            "http://confOf#hasCountry",
+            "http://confOf#University",
+            "http://confOf#hasCity",
+            "http://confOf#Company",
+            "http://confOf#hasPostalCode",
+            "http://confOf#Organization"
+          ]
+        }
+      ]
+    },
+    {
+      "name": "Place",
+      "entities": [
+        "http://confOf#Country",
+        "http://confOf#City"
+      ]
+    },
+    {
+      "name": "Conference",
+      "entities": [
+        "http://confOf#Conference"
+      ]
+    },
+    {
+      "name": "Contribution",
+      "entities": [
+        "http://confOf#Contribution",
+        "http://confOf#Paper",
+        "http://confOf#dealsWith",
+        "http://confOf#contactEmail",
+        "http://confOf#abstract",
+        "http://confOf#hasTitle",
+        "http://confOf#Short_paper",
+        "http://confOf#remark",
+        "http://confOf#Poster",
+        "http://confOf#has_title",
+        "http://confOf#writtenBy",
+        "http://confOf#hasKeyword"
+      ]
+    },
+    {
+      "name": "Topic",
+      "entities": [
+        "http://confOf#Topic"
+      ]
+    },
+    {
+      "name": "Event",
+      "entities": [
+        "http://confOf#Event",
+        "http://confOf#starts_on",
+        "http://confOf#ends_on"
+      ],
+      "submodules": [
+        {
+          "name": "Social_event",
+          "entities": [
+            "http://confOf#Trip",
+            "http://confOf#Social_event",
+            "http://confOf#has_short_title",
+            "http://confOf#Reception",
+            "http://confOf#location",
+            "http://confOf#Banquet",
+            "http://confOf#maxChoice",
+            "http://confOf#defaultChoice",
+            "http://confOf#hasVAT",
+            "http://confOf#minChoice"
+          ]
+        },
+        {
+          "name": "Administrative_event",
+          "entities": [
+            "http://confOf#follows",
+            "http://confOf#Submission_event",
+            "http://confOf#parallel_with",
+            "http://confOf#Registration_of_participants_event",
+            "http://confOf#Reviewing_event",
+            "http://confOf#Camera_ready_event",
+            "http://confOf#Administrative_event",
+            "http://confOf#Reviewing_results_event",
+            "http://confOf#Camera_Ready_event"
+          ]
+        },
+        {
+          "name": "Working_event",
+          "entities": [
+            "http://confOf#Tutorial",
+            "http://confOf#Workshop",
+            "http://confOf#hasTopic",
+            "http://confOf#has_short_title",
+            "http://confOf#Working_event",
+            "http://confOf#location",
+            "http://confOf#hasAdministrativeEvent",
+            "http://confOf#maxChoice",
+            "http://confOf#defaultChoice",
+            "http://confOf#hasVAT",
+            "http://confOf#minChoice"
+          ]
+        }
+      ]
+    }
+  ],
+  "conference": [
+    {
+      "name": "Conference_volume",
+      "entities": [
+        "http://conference#has_a_location",
+        "http://conference#has_tutorials",
+        "http://conference#has_contributions",
+        "http://conference#has_a_program_committee",
+        "http://conference#has_tracks",
+        "http://conference#Conference_volume",
+        "http://conference#has_a_steering_committee",
+        "http://conference#has_important_dates",
+        "http://conference#has_parts",
+        "http://conference#has_a_commtitee",
+        "http://conference#has_workshops",
+        "http://conference#has_an_organizing_committee",
+        "http://conference#Conference"
+      ],
+      "submodules": [
+        {
+          "name": "Conference_part",
+          "entities": [
+            "http://conference#has_a_track-workshop-tutorial_topic",
+            "http://conference#has_a_track-workshop-tutorial_chair",
+            "http://conference#Conference_part",
+            "http://conference#is_part_of_conference_volumes",
+            "http://conference#Workshop",
+            "http://conference#Track",
+            "http://conference#Tutorial"
+          ]
+        },
+        {
+          "name": "Conference_proceedings",
+          "entities": [
+            "http://conference#has_a_publisher",
+            "http://conference#has_a_volume",
+            "http://conference#has_an_ISBN",
+            "http://conference#Conference_proceedings"
+          ]
+        }
+      ]
+    },
+    {
+      "name": "Publisher",
+      "entities": [
+        "http://conference#issues",
+        "http://conference#Publisher"
+      ]
+    },
+    {
+      "name": "Person",
+      "entities": [
+        "http://conference#Person",
+        "http://conference#has_the_first_name",
+        "http://conference#has_an_email",
+        "http://conference#has_the_last_name",
+        "http://conference#has_gender"
+      ],
+      "submodules": [
+        {
+          "name": "Conference_contributor",
+          "entities": [
+            "http://conference#Contribution_1th-author",
+            "http://conference#Conference_contributor",
+            "http://conference#Invited_speaker",
+            "http://conference#Regular_author",
+            "http://conference#Contribution_co-author",
+            "http://conference#contributes"
+          ]
+        },
+        {
+          "name": "Track-workshop_chair",
+          "entities": [
+            "http://conference#was_a_track-workshop_chair_of",
+            "http://conference#Track-workshop_chair"
+          ]
+        },
+        {
+          "name": "Committee_member",
+          "entities": [
+            "http://conference#Chair",
+            "http://conference#Organizer",
+            "http://conference#Committee_member",
+            "http://conference#was_a_committe_co-chair_of",
+            "http://conference#was_a_committee_chair_of",
+            "http://conference#Co-chair",
+            "http://conference#was_a_member_of"
+          ]
+        },
+        {
+          "name": "Conference_Participant",
+          "entities": [
+            "http://conference#Conference_participant",
+            "http://conference#Active_conference_participant",
+            "http://conference#gives_presentations",
+            "http://conference#Passive_conference_participant"
+          ]
+        },
+        {
+          "name": "Conference_applicant",
+          "entities": [
+            "http://conference#Late_paid_applicant",
+            "http://conference#Conference_applicant",
+            "http://conference#Registeered_applicant",
+            "http://conference#Paid_applicant",
+            "http://conference#Early_paid_applicant"
+          ]
+        },
+        {
+          "name": "Reviewer",
+          "entities": [
+            "http://conference#has_a_review_reference_or_expertise",
+            "http://conference#Reviewer",
+            "http://conference#invites_co-reviewers",
+            "http://conference#invited_by"
+          ]
+        },
+        {
+          "name": "Organization",
+          "entities": [
+            "http://conference#Organization"
+          ]
+        }
+      ]
+    },
+    {
+      "name": "Committee",
+      "entities": [
+        "http://conference#Organizing_committee",
+        "http://conference#was_a_steering_committee_of",
+        "http://conference#Program_committee",
+        "http://conference#Committee",
+        "http://conference#was_a_program_committee_of",
+        "http://conference#has_a_committee_co-chair",
+        "http://conference#was_an_organizing_committee_of",
+        "http://conference#has_a_committee_chair",
+        "http://conference#has_members",
+        "http://conference#was_a_committee_of",
+        "http://conference#Steering_committee"
+      ]
+    },
+    {
+      "name": "Important_dates",
+      "entities": [
+        "http://conference#belong_to_a_conference_volume",
+        "http://conference#Important_dates",
+        "http://conference#is_a_date_of_camera_ready_paper_submission",
+        "http://conference#is_a_starting_date",
+        "http://conference#is_a_full_paper_submission_date",
+        "http://conference#is_an_abstract_submission_date",
+        "http://conference#is_an_ending_date",
+        "http://conference#is_a_date_of_acceptance_announcement"
+      ]
+    },
+    {
+      "name": "Conference_document",
+      "entities": [
+        "http://conference#has_a_URL",
+        "http://conference#has_a_date_of_issue",
+        "http://conference#Conference_document",
+        "http://conference#Conference_announcement",
+        "http://conference#Conference_www",
+        "http://conference#has_authors",
+        "http://conference#Call_for_paper",
+        "http://conference#Call_for_participation",
+        "http://conference#Information_for_participants"
+      ],
+      "submodules": [
+        {
+          "name": "Conference_contribution",
+          "entities": [
+            "http://conference#is_submitted_at",
+            "http://conference#Submitted_contribution",
+            "http://conference#has_an_abstract",
+            "http://conference#Poster",
+            "http://conference#is_given_by",
+            "http://conference#Camera_ready_contribution",
+            "http://conference#Reviewed_contribution",
+            "http://conference#has_been_assigned_a_review_reference",
+            "http://conference#Presentation",
+            "http://conference#Accepted_contribution",
+            "http://conference#Conference_contribution",
+            "http://conference#has_a_review_expertise",
+            "http://conference#Rejected_contribution",
+            "http://conference#Invited_talk",
+            "http://conference#has_a_review"
+          ],
+          "submodules": [
+            {
+              "name": "Regular_contribution",
+              "entities": [
+                "http://conference#Regular_contribution",
+                "http://conference#has_an_abstract",
+                "http://conference#is_the_1th_part_of",
+                "http://conference#Abstract",
+                "http://conference#Extended_abstract",
+                "http://conference#Written_contribution",
+                "http://conference#Paper"
+              ]
+            }
+          ]
+        },
+        {
+          "name": "Review",
+          "entities": [
+            "http://conference#reviews",
+            "http://conference#Review",
+            "http://conference#has_authors"
+          ]
+        }
+      ]
+    },
+    {
+      "name": "Conference_fees",
+      "entities": [
+        "http://conference#Conference_fees"
+      ]
+    },
+    {
+      "name": "Review_preference",
+      "entities": [
+        "http://conference#has_a_topic_or_a_submission_contribution",
+        "http://conference#belongs_to_reviewers",
+        "http://conference#has_a_degree",
+        "http://conference#Review_preference",
+        "http://conference#has_an_expertise",
+        "http://conference#Review_expertise",
+        "http://conference#has_a_submitted_contribution"
+      ]
+    },
+    {
+      "name": "Topic",
+      "entities": [
+        "http://conference#Topic",
+        "http://conference#is_a_topis_of_conference_parts",
+        "http://conference#has_been_assigned_a_review_reference",
+        "http://conference#belongs_to_a_review_reference"
+      ]
+    },
+    {
+      "name": "Name",
+      "entities": [
+        "http://conference#has_a_name"
+      ]
+    }
+  ]
+}

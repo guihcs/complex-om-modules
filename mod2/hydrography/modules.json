@@ -1,0 +1,997 @@
+{
+  "cree": [
+    {
+      "name": "Hydrography",
+      "entities": [
+        "http://www.owl-ontologies.com/Cree_hydro.owl#Paaushtuguiiat",
+        "http://www.owl-ontologies.com/Cree_hydro.owl#Anatwaayach",
+        "http://www.owl-ontologies.com/Cree_hydro.owl#DownstreamOf",
+        "http://www.owl-ontologies.com/Cree_hydro.owl#Hydrography",
+        "http://www.owl-ontologies.com/Cree_hydro.owl#Aamaataashtikwaayaach",
+        "http://www.owl-ontologies.com/Cree_hydro.owl#avoidedBy",
+        "http://www.owl-ontologies.com/Cree_hydro.owl#Aa_upaachich",
+        "http://www.owl-ontologies.com/Cree_hydro.owl#Aa_upaach",
+        "http://www.owl-ontologies.com/Cree_hydro.owl#Muschiwinipaakw",
+        "http://www.owl-ontologies.com/Cree_hydro.owl#Iihthuwikimaauh",
+        "http://www.owl-ontologies.com/Cree_hydro.owl#hasMaterial",
+        "http://www.owl-ontologies.com/Cree_hydro.owl#sameGeographyDifferentTrapline",
+        "http://www.owl-ontologies.com/Cree_hydro.owl#portagesAround",
+        "http://www.owl-ontologies.com/Cree_hydro.owl#Shiipiish",
+        "http://www.owl-ontologies.com/Cree_hydro.owl#HasPart",
+        "http://www.owl-ontologies.com/Cree_hydro.owl#UpstreamOf",
+        "http://www.owl-ontologies.com/Cree_hydro.owl#Waashaau",
+        "http://www.owl-ontologies.com/Cree_hydro.owl#hasMeandering",
+        "http://www.owl-ontologies.com/Cree_hydro.owl#FeedsFrom",
+        "http://www.owl-ontologies.com/Cree_hydro.owl#ConnectedTo",
+        "http://www.owl-ontologies.com/Cree_hydro.owl#PartOf",
+        "http://www.owl-ontologies.com/Cree_hydro.owl#Mischaakushtikw",
+        "http://www.owl-ontologies.com/Cree_hydro.owl#Cree",
+        "http://www.owl-ontologies.com/Cree_hydro.owl#Kapataakan",
+        "http://www.owl-ontologies.com/Cree_hydro.owl#parallelTo",
+        "http://www.owl-ontologies.com/Cree_hydro.owl#Shakaapishiish",
+        "http://www.owl-ontologies.com/Cree_hydro.owl#Aa_uchihchich",
+        "http://www.owl-ontologies.com/Cree_hydro.owl#littleBrotherOf",
+        "http://www.owl-ontologies.com/Cree_hydro.owl#Paaushtikui",
+        "http://www.owl-ontologies.com/Cree_hydro.owl#Mischaakw",
+        "http://www.owl-ontologies.com/Cree_hydro.owl#hasTrapline",
+        "http://www.owl-ontologies.com/Cree_hydro.owl#hasSpeaker",
+        "http://www.owl-ontologies.com/Cree_hydro.owl#Upikimaau",
+        "http://www.owl-ontologies.com/Cree_hydro.owl#Yaatiwaakimii",
+        "http://www.owl-ontologies.com/Cree_hydro.owl#Shiipaashtikw",
+        "http://www.owl-ontologies.com/Cree_hydro.owl#Siipii",
+        "http://www.owl-ontologies.com/Cree_hydro.owl#Wiinipaakw",
+        "http://www.owl-ontologies.com/Cree_hydro.owl#partOf",
+        "http://www.owl-ontologies.com/Cree_hydro.owl#Awaashaashich",
+        "http://www.owl-ontologies.com/Cree_hydro.owl#EmptiesInto",
+        "http://www.owl-ontologies.com/Cree_hydro.owl#bigBrotherOf",
+        "http://www.owl-ontologies.com/Cree_hydro.owl#Aa_saachiiuch",
+        "http://www.owl-ontologies.com/Cree_hydro.owl#Naasipaatimihch",
+        "http://www.owl-ontologies.com/Cree_hydro.owl#Shikaapishii",
+        "http://www.owl-ontologies.com/Cree_hydro.owl#ContainedBy"
+      ],
+      "submodules": [
+        {
+          "name": "Naaskimikaau",
+          "entities": [
+            "http://www.owl-ontologies.com/Cree_hydro.owl#Naaskimikaau"
+          ]
+        }
+      ]
+    },
+    {
+      "name": "Saakihiikin",
+      "entities": [
+        "http://www.owl-ontologies.com/Cree_hydro.owl#Waawaachikimaau",
+        "http://www.owl-ontologies.com/Cree_hydro.owl#Saakihiikinish",
+        "http://www.owl-ontologies.com/Cree_hydro.owl#Saakihiikin",
+        "http://www.owl-ontologies.com/Cree_hydro.owl#Mischaakusaakihiikin",
+        "http://www.owl-ontologies.com/Cree_hydro.owl#Aa_aschipuutaakinuwich",
+        "http://www.owl-ontologies.com/Cree_hydro.owl#Pikutaauhkw",
+        "http://www.owl-ontologies.com/Cree_hydro.owl#Aapiitukamaach"
+      ]
+    },
+    {
+      "name": "Aamaataamapiich",
+      "entities": [
+        "http://www.owl-ontologies.com/Cree_hydro.owl#Aamaataamapiich"
+      ]
+    },
+    {
+      "name": "ValuePartition",
+      "entities": [
+        "http://www.owl-ontologies.com/Cree_hydro.owl#ValuePartition",
+        "http://www.owl-ontologies.com/Cree_hydro.owl#AgeSpeakerValuePartition",
+        "http://www.owl-ontologies.com/Cree_hydro.owl#NotMeandering",
+        "http://www.owl-ontologies.com/Cree_hydro.owl#Meandering",
+        "http://www.owl-ontologies.com/Cree_hydro.owl#MeanderingValuePartition"
+      ],
+      "submodules": [
+        {
+          "name": "MaterialValuePartition",
+          "entities": [
+            "http://www.owl-ontologies.com/Cree_hydro.owl#Minaakuwamskau",
+            "http://www.owl-ontologies.com/Cree_hydro.owl#Aanayapskaach",
+            "http://www.owl-ontologies.com/Cree_hydro.owl#Sand",
+            "http://www.owl-ontologies.com/Cree_hydro.owl#Rock",
+            "http://www.owl-ontologies.com/Cree_hydro.owl#Mud",
+            "http://www.owl-ontologies.com/Cree_hydro.owl#MaterialValuePartition",
+            "http://www.owl-ontologies.com/Cree_hydro.owl#Aanayaach",
+            "http://www.owl-ontologies.com/Cree_hydro.owl#Earth"
+          ]
+        },
+        {
+          "name": "AgeSpeakerValuePartition",
+          "entities": [
+            "http://www.owl-ontologies.com/Cree_hydro.owl#Elder",
+            "http://www.owl-ontologies.com/Cree_hydro.owl#MiddleAged"
+          ]
+        },
+        {
+          "name": "TraplineValuePartition",
+          "entities": [
+            "http://www.owl-ontologies.com/Cree_hydro.owl#VC-23",
+            "http://www.owl-ontologies.com/Cree_hydro.owl#VC-25",
+            "http://www.owl-ontologies.com/Cree_hydro.owl#VC-20",
+            "http://www.owl-ontologies.com/Cree_hydro.owl#VC-14",
+            "http://www.owl-ontologies.com/Cree_hydro.owl#VC-21",
+            "http://www.owl-ontologies.com/Cree_hydro.owl#VC-11",
+            "http://www.owl-ontologies.com/Cree_hydro.owl#VC-13",
+            "http://www.owl-ontologies.com/Cree_hydro.owl#VC-12",
+            "http://www.owl-ontologies.com/Cree_hydro.owl#VC-10",
+            "http://www.owl-ontologies.com/Cree_hydro.owl#TraplineValuePartition",
+            "http://www.owl-ontologies.com/Cree_hydro.owl#VC-22",
+            "http://www.owl-ontologies.com/Cree_hydro.owl#VC-09",
+            "http://www.owl-ontologies.com/Cree_hydro.owl#VC-19",
+            "http://www.owl-ontologies.com/Cree_hydro.owl#VC-26",
+            "http://www.owl-ontologies.com/Cree_hydro.owl#VC-16",
+            "http://www.owl-ontologies.com/Cree_hydro.owl#VC-18",
+            "http://www.owl-ontologies.com/Cree_hydro.owl#VC-29",
+            "http://www.owl-ontologies.com/Cree_hydro.owl#VC-24",
+            "http://www.owl-ontologies.com/Cree_hydro.owl#VC-28",
+            "http://www.owl-ontologies.com/Cree_hydro.owl#VC-27",
+            "http://www.owl-ontologies.com/Cree_hydro.owl#VC-17"
+          ]
+        }
+      ]
+    },
+    {
+      "name": "Minaauhkw",
+      "entities": [
+        "http://www.owl-ontologies.com/Cree_hydro.owl#Minaauhkw"
+      ]
+    },
+    {
+      "name": "Mischaakw",
+      "entities": [
+        "http://www.owl-ontologies.com/Cree_hydro.owl#Contains"
+      ]
+    },
+    {
+      "name": "Minishtikuchuun",
+      "entities": [
+        "http://www.owl-ontologies.com/Cree_hydro.owl#Minishtikuuschuukaau",
+        "http://www.owl-ontologies.com/Cree_hydro.owl#Sischutaauhkaach",
+        "http://www.owl-ontologies.com/Cree_hydro.owl#Minaakuwamskau",
+        "http://www.owl-ontologies.com/Cree_hydro.owl#Minishtikuchuun"
+      ]
+    },
+    {
+      "name": "Minishtik",
+      "entities": [
+        "http://www.owl-ontologies.com/Cree_hydro.owl#Minaapiskaau",
+        "http://www.owl-ontologies.com/Cree_hydro.owl#Minishtik",
+        "http://www.owl-ontologies.com/Cree_hydro.owl#Minishtikush",
+        "http://www.owl-ontologies.com/Cree_hydro.owl#Minaapiskw"
+      ]
+    },
+    {
+      "name": "Misc",
+      "entities": [
+        "http://www.w3.org/2003/11/swrl#argument2",
+        "http://www.w3.org/2003/11/swrl#body",
+        "http://www.w3.org/2003/11/swrl#classPredicate",
+        "http://www.owl-ontologies.com/Cree_hydro.owl#HasName",
+        "http://www.w3.org/2003/11/swrl#propertyPredicate",
+        "http://www.w3.org/2003/11/swrl#argument1",
+        "http://www.w3.org/2003/11/swrl#head"
+      ]
+    }
+  ],
+  "swo": [
+    {
+      "name": "Misc",
+      "entities": [
+        "http://cegis.usgs.gov/SWO#producedMeasurement",
+        "http://cegis.usgs.gov/SWO#overlaps",
+        "http://ns.inria.org/edoal/1.0/#greater-than",
+        "http://cegis.usgs.gov/SWO#isContainedBy",
+        "http://ns.inria.org/edoal/1.0/#equals",
+        "http://cegis.usgs.gov/SWO#isDistributedBy",
+        "http://www.w3.org/2002/07/owl#Thing",
+        "http://cegis.usgs.gov/SWO#adjoins",
+        "http://cegis.usgs.gov/SWO#isConnectedTo",
+        "http://cegis.usgs.gov/SWO#hasDivergence"
+      ]
+    },
+    {
+      "name": "SurfaceFeature",
+      "entities": [
+        "http://cegis.usgs.gov/SWO#SurfaceFeature",
+        "http://cegis.usgs.gov/SWO#Diversion"
+      ]
+    },
+    {
+      "name": "SpatialThing",
+      "entities": [
+        "http://cegis.usgs.gov/SWO#SpatialThing",
+        "http://cegis.usgs.gov/SWO#SurfaceWaterNetwork"
+      ]
+    },
+    {
+      "name": "BlockingFeature",
+      "entities": [
+        "http://cegis.usgs.gov/SWO#BlockingFeature",
+        "http://cegis.usgs.gov/SWO#Wall",
+        "http://cegis.usgs.gov/SWO#Gate",
+        "http://cegis.usgs.gov/SWO#LockChamber"
+      ]
+    },
+    {
+      "name": "Waterbody",
+      "entities": [
+        "http://cegis.usgs.gov/SWO#Wash",
+        "http://cegis.usgs.gov/SWO#BayOrInlet",
+        "http://cegis.usgs.gov/SWO#SwampOrMarsh",
+        "http://cegis.usgs.gov/SWO#Waterfall",
+        "http://cegis.usgs.gov/SWO#Playa",
+        "http://cegis.usgs.gov/SWO#hasFlow",
+        "http://cegis.usgs.gov/SWO#hasTemporality",
+        "http://cegis.usgs.gov/SWO#Intermittent",
+        "http://cegis.usgs.gov/SWO#isContainedby",
+        "http://cegis.usgs.gov/SWO#Ephemeral",
+        "http://cegis.usgs.gov/SWO#InundationArea",
+        "http://cegis.usgs.gov/SWO#Estuary",
+        "http://cegis.usgs.gov/SWO#Impoundment",
+        "http://cegis.usgs.gov/SWO#StreamOrRiver",
+        "http://cegis.usgs.gov/SWO#SeaOrOcean",
+        "http://cegis.usgs.gov/SWO#LakeOrPond",
+        "http://cegis.usgs.gov/SWO#Waterbody",
+        "http://cegis.usgs.gov/SWO#Perennial",
+        "http://cegis.usgs.gov/SWO#Rapids"
+      ],
+      "submodules": [
+        {
+          "name": "StreamOrRiver",
+          "entities": [
+            "http://cegis.usgs.gov/SWO#StreamOrRiver",
+            "http://cegis.usgs.gov/SWO#SubmergedStream"
+          ]
+        }
+      ]
+    },
+    {
+      "name": "Event",
+      "entities": [
+        "http://cegis.usgs.gov/SWO#Event",
+        "http://cegis.usgs.gov/SWO#Gaging"
+      ]
+    },
+    {
+      "name": "HydrographicMeasurement",
+      "entities": [
+        "http://cegis.usgs.gov/SWO#takenAtStage",
+        "http://cegis.usgs.gov/SWO#WaterStage",
+        "http://cegis.usgs.gov/SWO#ApproximateHydrographicMeasurement",
+        "http://cegis.usgs.gov/SWO#hasUnit",
+        "http://cegis.usgs.gov/SWO#isMeasurementOfFeature",
+        "http://cegis.usgs.gov/SWO#measuresHydrographicQuality",
+        "http://cegis.usgs.gov/SWO#HydrographicMeasurement"
+      ],
+      "submodules": [
+        {
+          "name": "MeasurementUnit",
+          "entities": [
+            "http://cegis.usgs.gov/SWO#MeasurementUnit",
+            "http://cegis.usgs.gov/SWO#SquareMeter",
+            "http://cegis.usgs.gov/SWO#CubicMetersPerSecond",
+            "http://cegis.usgs.gov/SWO#Meter"
+          ]
+        },
+        {
+          "name": "HydrographicQuality",
+          "entities": [
+            "http://cegis.usgs.gov/SWO#Length",
+            "http://cegis.usgs.gov/SWO#HydrographicQuality",
+            "http://cegis.usgs.gov/SWO#Discharge",
+            "http://cegis.usgs.gov/SWO#Depth"
+          ]
+        }
+      ]
+    },
+    {
+      "name": "Channel",
+      "entities": [
+        "http://cegis.usgs.gov/SWO#Channel"
+      ]
+    },
+    {
+      "name": "SpringOrSeep",
+      "entities": [
+        "http://cegis.usgs.gov/SWO#SpringOrSeep",
+        "http://cegis.usgs.gov/SWO#endsAt",
+        "http://cegis.usgs.gov/SWO#startsFrom"
+      ]
+    },
+    {
+      "name": "BoundingFeature",
+      "entities": [
+        "http://cegis.usgs.gov/SWO#Levee",
+        "http://cegis.usgs.gov/SWO#Spillway",
+        "http://cegis.usgs.gov/SWO#Foreshore",
+        "http://cegis.usgs.gov/SWO#BoundingFeature",
+        "http://cegis.usgs.gov/SWO#Coastline",
+        "http://cegis.usgs.gov/SWO#Dam",
+        "http://cegis.usgs.gov/SWO#Shore"
+      ]
+    },
+    {
+      "name": "Reservoir",
+      "entities": [
+        "http://cegis.usgs.gov/SWO#Disposal",
+        "http://cegis.usgs.gov/SWO#DecorativePool",
+        "http://cegis.usgs.gov/SWO#Reservoir",
+        "http://cegis.usgs.gov/SWO#WaterStorage",
+        "http://cegis.usgs.gov/SWO#Aquaculture",
+        "http://cegis.usgs.gov/SWO#SwimmingPool",
+        "http://cegis.usgs.gov/SWO#Evaporator"
+      ],
+      "submodules": [
+        {
+          "name": "Treatment",
+          "entities": [
+            "http://cegis.usgs.gov/SWO#CoolingPond",
+            "http://cegis.usgs.gov/SWO#SewageTreatmentPond",
+            "http://cegis.usgs.gov/SWO#SettlingPond",
+            "http://cegis.usgs.gov/SWO#FiltrationPond",
+            "http://cegis.usgs.gov/SWO#Treatment"
+          ]
+        }
+      ]
+    },
+    {
+      "name": "ManmadeFeature",
+      "entities": [
+        "http://cegis.usgs.gov/SWO#OperationalStatus",
+        "http://cegis.usgs.gov/SWO#Bridge",
+        "http://cegis.usgs.gov/SWO#hasOperationalStatus",
+        "http://cegis.usgs.gov/SWO#Flume",
+        "http://cegis.usgs.gov/SWO#isConstructedFrom",
+        "http://cegis.usgs.gov/SWO#contains",
+        "http://cegis.usgs.gov/SWO#Tunnel",
+        "http://cegis.usgs.gov/SWO#Weir",
+        "http://cegis.usgs.gov/SWO#Aqueduct",
+        "http://cegis.usgs.gov/SWO#ManmadeFeature"
+      ],
+      "submodules": [
+        {
+          "name": "ContructionMaterial",
+          "entities": [
+            "http://cegis.usgs.gov/SWO#EarthenConstructionMaterial",
+            "http://cegis.usgs.gov/SWO#NonearthenConstructionMaterial",
+            "http://cegis.usgs.gov/SWO#ConstructionMaterial"
+          ]
+        }
+      ]
+    },
+    {
+      "name": "Flow",
+      "entities": [
+        "http://cegis.usgs.gov/SWO#Direction",
+        "http://cegis.usgs.gov/SWO#hasDirection"
+      ]
+    },
+    {
+      "name": "Temporality",
+      "entities": [
+        "http://cegis.usgs.gov/SWO#Temporality"
+      ]
+    },
+    {
+      "name": "HydrographicFeature",
+      "entities": [
+        "http://cegis.usgs.gov/SWO#CanalOrDitch",
+        "http://cegis.usgs.gov/SWO#hasValue",
+        "http://cegis.usgs.gov/SWO#UndergroundFeature",
+        "http://cegis.usgs.gov/SWO#AggregateHydrographicFeature",
+        "http://cegis.usgs.gov/SWO#Well",
+        "http://cegis.usgs.gov/SWO#IceMass",
+        "http://cegis.usgs.gov/SWO#TransportingFeature",
+        "http://cegis.usgs.gov/SWO#Pipeline",
+        "http://cegis.usgs.gov/SWO#measuresHydrographicQuality",
+        "http://cegis.usgs.gov/SWO#HydrographicFeature",
+        "http://cegis.usgs.gov/SWO#SinkOrRise",
+        "http://cegis.usgs.gov/SWO#AreaToBeSubmerged",
+        "http://cegis.usgs.gov/SWO#ElevatedFeature",
+        "http://cegis.usgs.gov/SWO#Flow"
+      ],
+      "submodules": [
+        {
+          "name": "UnderwaterFeature",
+          "entities": [
+            "http://cegis.usgs.gov/SWO#UnderwaterFeature"
+          ]
+        }
+      ]
+    },
+    {
+      "name": "Divergence",
+      "entities": [
+        "http://cegis.usgs.gov/SWO#ContributingDivergence",
+        "http://cegis.usgs.gov/SWO#WithdrawingConvergence",
+        "http://cegis.usgs.gov/SWO#Divergence"
+      ]
+    }
+  ],
+  "hydrOntology": [
+    {
+      "name": "AguasArtificiales",
+      "entities": [
+        "http://geo.linkeddata.es/ontology/es_alimentada_por",
+        "http://geo.linkeddata.es/ontology/Laguna_Artificial",
+        "http://geo.linkeddata.es/ontology/Piscina",
+        "http://geo.linkeddata.es/ontology/Fuente",
+        "http://geo.linkeddata.es/ontology/Recinto",
+        "http://geo.linkeddata.es/ontology/Estanque",
+        "http://geo.linkeddata.es/ontology/Masa_de_Agua_Artificial",
+        "http://geo.linkeddata.es/ontology/Saladar",
+        "http://geo.linkeddata.es/ontology/Salina"
+      ]
+    },
+    {
+      "name": "Cuenca_Hidrogr\u00e1fica",
+      "entities": [
+        "http://geo.linkeddata.es/ontology/hydro-ontology.owl#lat.",
+        "http://geo.linkeddata.es/ontology/hydro-ontology.owl#coordenadas",
+        "http://geo.linkeddata.es/ontology/hydro-ontology.owl#geometr\u00eda",
+        "http://geo.linkeddata.es/ontology/hydro-ontology.owl#long.",
+        "http://geo.linkeddata.es/ontology/hydro-ontology.owl#idioma",
+        "http://geo.linkeddata.es/ontology/hydro-ontology.owl#per\u00edmetro",
+        "http://geo.linkeddata.es/ontology/Cuenca_Hidrogr\u00e1fica",
+        "http://geo.linkeddata.es/ontology/hydro-ontology.owl#nombre_alternativo",
+        "http://geo.linkeddata.es/ontology/hydro-ontology.owl#Idioma_alternativo",
+        "http://geo.linkeddata.es/ontology/nombre"
+      ]
+    },
+    {
+      "name": "Aguas",
+      "entities": [
+        "http://geo.linkeddata.es/ontology/hydro-ontology.owl#vertiente",
+        "http://geo.linkeddata.es/ontology/longitud",
+        "http://geo.linkeddata.es/ontology/autoridad_competente",
+        "http://geo.linkeddata.es/ontology/navegable",
+        "http://geo.linkeddata.es/ontology/superficie",
+        "http://geo.linkeddata.es/ontology/ejercen_influencia",
+        "http://geo.linkeddata.es/ontology/Aguas",
+        "http://geo.linkeddata.es/ontology/hydro-ontology.owl#volumen",
+        "http://geo.linkeddata.es/ontology/estado"
+      ]
+    },
+    {
+      "name": "MasaDeAgua",
+      "entities": [
+        "http://geo.linkeddata.es/ontology/Aguas_Dulces"
+      ]
+    },
+    {
+      "name": "CursoFluvial",
+      "entities": [
+        "http://geo.linkeddata.es/ontology/altitud",
+        "http://geo.linkeddata.es/ontology/obtenci\u00f3n_de_energ\u00eda",
+        "http://geo.linkeddata.es/ontology/Chorrera",
+        "http://geo.linkeddata.es/ontology/Cascada"
+      ]
+    },
+    {
+      "name": "CursoDeAguaSecundario",
+      "entities": [
+        "http://geo.linkeddata.es/ontology/Riachuelo",
+        "http://geo.linkeddata.es/ontology/Regato",
+        "http://geo.linkeddata.es/ontology/Regajo",
+        "http://geo.linkeddata.es/ontology/Reguero",
+        "http://geo.linkeddata.es/ontology/Reguera"
+      ]
+    },
+    {
+      "name": "ConduccionDeAgua",
+      "entities": [
+        "http://geo.linkeddata.es/ontology/Sif\u00f3n",
+        "http://geo.linkeddata.es/ontology/vierte_en",
+        "http://geo.linkeddata.es/ontology/Dren",
+        "http://geo.linkeddata.es/ontology/Desag\u00fce",
+        "http://geo.linkeddata.es/ontology/Tuber\u00eda"
+      ]
+    },
+    {
+      "name": "Morfologia",
+      "entities": [
+        "http://geo.linkeddata.es/ontology/Garganta",
+        "http://geo.linkeddata.es/ontology/tipolog\u00eda_de_material",
+        "http://geo.linkeddata.es/ontology/curvatura",
+        "http://geo.linkeddata.es/ontology/Morfolog\u00eda",
+        "http://geo.linkeddata.es/ontology/Ribera",
+        "http://geo.linkeddata.es/ontology/Poza",
+        "http://geo.linkeddata.es/ontology/Delta",
+        "http://geo.linkeddata.es/ontology/Meandro",
+        "http://geo.linkeddata.es/ontology/Vado",
+        "http://geo.linkeddata.es/ontology/Sumidero",
+        "http://geo.linkeddata.es/ontology/Isla_Fluvial",
+        "http://geo.linkeddata.es/ontology/Aluvi\u00f3n",
+        "http://geo.linkeddata.es/ontology/Vertiente"
+      ],
+      "submodules": [
+        {
+          "name": "Barranco",
+          "entities": [
+            "http://geo.linkeddata.es/ontology/Barranco",
+            "http://geo.linkeddata.es/ontology/Galacho",
+            "http://geo.linkeddata.es/ontology/Barranquillo"
+          ]
+        }
+      ]
+    },
+    {
+      "name": "Deposito",
+      "entities": [
+        "http://geo.linkeddata.es/ontology/Aljibe",
+        "http://geo.linkeddata.es/ontology/es_conducido_por",
+        "http://geo.linkeddata.es/ontology/Abrevadero",
+        "http://geo.linkeddata.es/ontology/Desp\u00f3sito",
+        "http://geo.linkeddata.es/ontology/Dep\u00f3sito",
+        "http://geo.linkeddata.es/ontology/almacena",
+        "http://geo.linkeddata.es/ontology/Balsa",
+        "http://geo.linkeddata.es/ontology/Alberca"
+      ]
+    },
+    {
+      "name": "Surgencias",
+      "entities": [
+        "http://geo.linkeddata.es/ontology/Pozo",
+        "http://geo.linkeddata.es/ontology/se_extrae"
+      ]
+    },
+    {
+      "name": "AguasContinentales",
+      "entities": [
+        "http://geo.linkeddata.es/ontology/R\u00e1pido",
+        "http://geo.linkeddata.es/ontology/alimenta_a",
+        "http://geo.linkeddata.es/ontology/Lago",
+        "http://geo.linkeddata.es/ontology/Ca\u00f1ada",
+        "http://geo.linkeddata.es/ontology/conexi\u00f3n",
+        "http://geo.linkeddata.es/ontology/Arroyo",
+        "http://geo.linkeddata.es/ontology/explotaci\u00f3n",
+        "http://geo.linkeddata.es/ontology/tama\u00f1o",
+        "http://geo.linkeddata.es/ontology/estaci\u00f3n_de_aforo",
+        "http://geo.linkeddata.es/ontology/Aguas_Subterr\u00e1neas",
+        "http://geo.linkeddata.es/ontology/grado_de_contaminaci\u00f3n",
+        "http://geo.linkeddata.es/ontology/tipolog\u00eda_de_cauce",
+        "http://geo.linkeddata.es/ontology/hydro-ontology.owl#desagua_en",
+        "http://geo.linkeddata.es/ontology/categor\u00eda",
+        "http://geo.linkeddata.es/ontology/situaci\u00f3n_hidroqu\u00edmica",
+        "http://geo.linkeddata.es/ontology/Laguna",
+        "http://geo.linkeddata.es/ontology/origen_del_agua",
+        "http://geo.linkeddata.es/ontology/volumen_de_extracci\u00f3n",
+        "http://geo.linkeddata.es/ontology/hydro-ontology.owl#cuenca",
+        "http://geo.linkeddata.es/ontology/R\u00edo",
+        "http://geo.linkeddata.es/ontology/geolog\u00eda",
+        "http://geo.linkeddata.es/ontology/profundidad",
+        "http://geo.linkeddata.es/ontology/Marisma",
+        "http://geo.linkeddata.es/ontology/es_transvasada",
+        "http://geo.linkeddata.es/ontology/Aguas_Quietas",
+        "http://geo.linkeddata.es/ontology/descarga_en",
+        "http://geo.linkeddata.es/ontology/act\u00faa_de_emisario_de",
+        "http://geo.linkeddata.es/ontology/hydro-ontology.owl#sigueA",
+        "http://geo.linkeddata.es/ontology/conduce",
+        "http://geo.linkeddata.es/ontology/Rambla",
+        "http://geo.linkeddata.es/ontology/Rivera",
+        "http://geo.linkeddata.es/ontology/transmite",
+        "http://geo.linkeddata.es/ontology/Corriente_Subterr\u00e1nea",
+        "http://geo.linkeddata.es/ontology/se_extrae_para",
+        "http://geo.linkeddata.es/ontology/es_inundada_por",
+        "http://geo.linkeddata.es/ontology/Corriente",
+        "http://geo.linkeddata.es/ontology/di\u00e1metro",
+        "http://geo.linkeddata.es/ontology/naturaleza_qu\u00edmica",
+        "http://geo.linkeddata.es/ontology/Aguas_Continentales",
+        "http://geo.linkeddata.es/ontology/limites_geogr\u00e1ficos",
+        "http://geo.linkeddata.es/ontology/puede_fluir_como",
+        "http://geo.linkeddata.es/ontology/dispone_de_emisario",
+        "http://geo.linkeddata.es/ontology/es_almacenado_en",
+        "http://geo.linkeddata.es/ontology/cauce",
+        "http://geo.linkeddata.es/ontology/aportaci\u00f3n",
+        "http://geo.linkeddata.es/ontology/distribuye",
+        "http://geo.linkeddata.es/ontology/Drenaje",
+        "http://geo.linkeddata.es/ontology/destino",
+        "http://geo.linkeddata.es/ontology/es_distribuida",
+        "http://geo.linkeddata.es/ontology/Aguas_Corrientes_Naturales",
+        "http://geo.linkeddata.es/ontology/permeabilidad",
+        "http://geo.linkeddata.es/ontology/Surgencia_Natural",
+        "http://geo.linkeddata.es/ontology/Lago_Subterr\u00e1neo",
+        "http://geo.linkeddata.es/ontology/ocupaci\u00f3n",
+        "http://geo.linkeddata.es/ontology/Acu\u00edfero",
+        "http://geo.linkeddata.es/ontology/horizonte",
+        "http://geo.linkeddata.es/ontology/mezcla",
+        "http://geo.linkeddata.es/ontology/Banco_de_Nieve",
+        "http://geo.linkeddata.es/ontology/tipolog\u00eda_de_surgencia",
+        "http://geo.linkeddata.es/ontology/Canal",
+        "http://geo.linkeddata.es/ontology/discurre_sobre",
+        "http://geo.linkeddata.es/ontology/tasa_de_renovaci\u00f3n",
+        "http://geo.linkeddata.es/ontology/parte_de",
+        "http://geo.linkeddata.es/ontology/Aguas_Quietas_Naturales",
+        "http://geo.linkeddata.es/ontology/situaci\u00f3n",
+        "http://geo.linkeddata.es/ontology/tipolog\u00eda",
+        "http://geo.linkeddata.es/ontology/tasa_de_recarga",
+        "http://geo.linkeddata.es/ontology/Estuario",
+        "http://geo.linkeddata.es/ontology/superficie_confinada",
+        "http://geo.linkeddata.es/ontology/transvasa",
+        "http://geo.linkeddata.es/ontology/drenaje",
+        "http://geo.linkeddata.es/ontology/tiene_afluente",
+        "http://geo.linkeddata.es/ontology/Aguas_Superficiales",
+        "http://geo.linkeddata.es/ontology/Riacho",
+        "http://geo.linkeddata.es/ontology/zona_de_recarga",
+        "http://geo.linkeddata.es/ontology/tipolog\u00eda_de_cobertura",
+        "http://geo.linkeddata.es/ontology/Venaje",
+        "http://geo.linkeddata.es/ontology/inunda",
+        "http://geo.linkeddata.es/ontology/zona_de_descarga",
+        "http://geo.linkeddata.es/ontology/caudal",
+        "http://geo.linkeddata.es/ontology/Aguas_Corrientes",
+        "http://geo.linkeddata.es/ontology/tipo_margen",
+        "http://geo.linkeddata.es/ontology/tipolog\u00eda_fluvial",
+        "http://geo.linkeddata.es/ontology/Colector",
+        "http://geo.linkeddata.es/ontology/recarga_artificial",
+        "http://geo.linkeddata.es/ontology/nivel_de_explotaci\u00f3n",
+        "http://geo.linkeddata.es/ontology/Efluente",
+        "http://geo.linkeddata.es/ontology/r\u00e9gimen",
+        "http://geo.linkeddata.es/ontology/afloramiento",
+        "http://geo.linkeddata.es/ontology/origen_formaci\u00f3n",
+        "http://geo.linkeddata.es/ontology/Toma",
+        "http://geo.linkeddata.es/ontology/grado_de_intervenci\u00f3n",
+        "http://geo.linkeddata.es/ontology/es_capturado",
+        "http://geo.linkeddata.es/ontology/consta_de",
+        "http://geo.linkeddata.es/ontology/Humedal",
+        "http://geo.linkeddata.es/ontology/uso",
+        "http://geo.linkeddata.es/ontology/sometido_a_descarga_por",
+        "http://geo.linkeddata.es/ontology/recarga_natural",
+        "http://geo.linkeddata.es/ontology/riesgo_qu\u00edmico",
+        "http://geo.linkeddata.es/ontology/Guadi",
+        "http://geo.linkeddata.es/ontology/sometida_a_influencia_de",
+        "http://geo.linkeddata.es/ontology/Shuga",
+        "http://geo.linkeddata.es/ontology/Aguas_Corrientes_Artificiales",
+        "http://geo.linkeddata.es/ontology/deposita_en",
+        "http://geo.linkeddata.es/ontology/Conducto",
+        "http://geo.linkeddata.es/ontology/Torrente",
+        "http://geo.linkeddata.es/ontology/es_alimentada_por",
+        "http://geo.linkeddata.es/ontology/permite",
+        "http://geo.linkeddata.es/ontology/hydro-ontology.owl#desembocaEn",
+        "http://geo.linkeddata.es/ontology/Balsa_de_Hielo",
+        "http://geo.linkeddata.es/ontology/fondo",
+        "http://geo.linkeddata.es/ontology/pendiente",
+        "http://geo.linkeddata.es/ontology/hydro-ontology.owl#precedeA",
+        "http://geo.linkeddata.es/ontology/riesgo",
+        "http://geo.linkeddata.es/ontology/Surgencias",
+        "http://geo.linkeddata.es/ontology/Aguas_Quietas_Artificiales",
+        "http://geo.linkeddata.es/ontology/Surgencia_Artificial",
+        "http://geo.linkeddata.es/ontology/Acuitardo"
+      ]
+    },
+    {
+      "name": "Canal_Aguas_Continentales",
+      "entities": [
+        "http://geo.linkeddata.es/ontology/Distribuci\u00f3n",
+        "http://geo.linkeddata.es/ontology/Canalillo",
+        "http://geo.linkeddata.es/ontology/Canal_Aguas_Continentales"
+      ]
+    },
+    {
+      "name": "Aguas_de_Transicion",
+      "entities": [
+        "http://geo.linkeddata.es/ontology/Aguas_de_Transici\u00f3n",
+        "http://geo.linkeddata.es/ontology/R\u00eda"
+      ]
+    },
+    {
+      "name": "Surgencia_Artificial",
+      "entities": [
+        "http://geo.linkeddata.es/ontology/Fuente_Artificial",
+        "http://geo.linkeddata.es/ontology/Surgencia_Artificial"
+      ]
+    },
+    {
+      "name": "Charca",
+      "entities": [
+        "http://geo.linkeddata.es/ontology/Chortal",
+        "http://geo.linkeddata.es/ontology/Ib\u00f3n",
+        "http://geo.linkeddata.es/ontology/Lavajo",
+        "http://geo.linkeddata.es/ontology/Bod\u00f3n",
+        "http://geo.linkeddata.es/ontology/Lucio",
+        "http://geo.linkeddata.es/ontology/Charca"
+      ]
+    },
+    {
+      "name": "Masa_de_hielo",
+      "entities": [
+        "http://geo.linkeddata.es/ontology/Capa_de_Nieve",
+        "http://geo.linkeddata.es/ontology/Capa_de_Hielo",
+        "http://geo.linkeddata.es/ontology/Nevero",
+        "http://geo.linkeddata.es/ontology/Masa_de_Hielo"
+      ]
+    },
+    {
+      "name": "Acequia",
+      "entities": [
+        "http://geo.linkeddata.es/ontology/Madre",
+        "http://geo.linkeddata.es/ontology/Ramal",
+        "http://geo.linkeddata.es/ontology/Azarbe",
+        "http://geo.linkeddata.es/ontology/Acequia",
+        "http://geo.linkeddata.es/ontology/Caz"
+      ]
+    },
+    {
+      "name": "Aguas_Saladas",
+      "entities": [
+        "http://geo.linkeddata.es/ontology/Fuente_Salada",
+        "http://geo.linkeddata.es/ontology/Aguas_Saladas",
+        "http://geo.linkeddata.es/ontology/Manantial_Salado",
+        "http://geo.linkeddata.es/ontology/Estanque_Salado",
+        "http://geo.linkeddata.es/ontology/salinidad",
+        "http://geo.linkeddata.es/ontology/Lago_Salado"
+      ]
+    },
+    {
+      "name": "Misc",
+      "entities": [
+        "http://geo.linkeddata.es/ontology/provenance",
+        "http://www.w3.org/2001/XMLSchema#string",
+        "http://geo.linkeddata.es/ontology/est\u00e1_proxima_a",
+        "http://geo.linkeddata.es/ontology/es_comunicada_por",
+        "http://geo.linkeddata.es/ontology/desagua_en",
+        "http://purl.org/dc/elements/1.1/publisher",
+        "http://geo.linkeddata.es/ontology/origina",
+        "http://geo.linkeddata.es/ontology/evac\u00faa_de",
+        "http://geo.linkeddata.es/ontology/estaEn",
+        "http://geo.linkeddata.es/ontology/sufre_descarga_de",
+        "http://geo.linkeddata.es/ontology/sometido",
+        "http://geo.linkeddata.es/ontology/es_originado_por",
+        "http://geo.linkeddata.es/ontology/comunica_con",
+        "http://purl.org/dc/elements/1.1/title",
+        "http://purl.org/dc/elements/1.1/creator",
+        "http://purl.org/dc/elements/1.1/source",
+        "http://www.w3.org/2002/07/owl#Thing",
+        "http://www.w3.org/2001/XMLSchema#strings",
+        "http://geo.linkeddata.es/ontology/es_conectado_con",
+        "http://geo.linkeddata.es/ontology/almancena",
+        "http://geo.linkeddata.es/ontology/conecta_con",
+        "http://geo.linkeddata.es/ontology/es_almancenado_en"
+      ]
+    },
+    {
+      "name": "Rio",
+      "entities": [
+        "http://geo.linkeddata.es/ontology/Afluente",
+        "http://geo.linkeddata.es/ontology/hydro-ontology.owl#desembocaEn"
+      ]
+    },
+    {
+      "name": "HidrografiaMaritma",
+      "entities": [
+        "http://geo.linkeddata.es/ontology/Aguas_Marinas",
+        "http://geo.linkeddata.es/ontology/es_conducido_por",
+        "http://geo.linkeddata.es/ontology/Zona_Contigua",
+        "http://geo.linkeddata.es/ontology/alimenta_a",
+        "http://geo.linkeddata.es/ontology/consta_de",
+        "http://geo.linkeddata.es/ontology/Aguas_Costeras",
+        "http://geo.linkeddata.es/ontology/Oc\u00e9ano",
+        "http://geo.linkeddata.es/ontology/Mar_Territorial",
+        "http://geo.linkeddata.es/ontology/hydro-ontology.owl#sigueA",
+        "http://geo.linkeddata.es/ontology/densidad",
+        "http://geo.linkeddata.es/ontology/Zona_Econ\u00f3mic_Exclusiva",
+        "http://geo.linkeddata.es/ontology/Alta_Mar",
+        "http://geo.linkeddata.es/ontology/concentraci\u00f3n_de_sal",
+        "http://geo.linkeddata.es/ontology/distancia",
+        "http://geo.linkeddata.es/ontology/Aguas_Costera",
+        "http://geo.linkeddata.es/ontology/Zona_Econ\u00f3mica_Exclusiva",
+        "http://geo.linkeddata.es/ontology/Mar"
+      ]
+    },
+    {
+      "name": "Embalse",
+      "entities": [
+        "http://geo.linkeddata.es/ontology/cota",
+        "http://geo.linkeddata.es/ontology/eutrofizaci\u00f3n",
+        "http://geo.linkeddata.es/ontology/capacidad",
+        "http://geo.linkeddata.es/ontology/Embalse"
+      ]
+    },
+    {
+      "name": "Zona_H\u00fameda",
+      "entities": [
+        "http://geo.linkeddata.es/ontology/Ci\u00e9naga",
+        "http://geo.linkeddata.es/ontology/Pa\u00fal",
+        "http://geo.linkeddata.es/ontology/Marjal",
+        "http://geo.linkeddata.es/ontology/Zona_H\u00fameda",
+        "http://geo.linkeddata.es/ontology/Tremedal",
+        "http://geo.linkeddata.es/ontology/Gotera",
+        "http://geo.linkeddata.es/ontology/Nava",
+        "http://geo.linkeddata.es/ontology/Aguazal",
+        "http://geo.linkeddata.es/ontology/Estero"
+      ]
+    },
+    {
+      "name": "Laguna",
+      "entities": [
+        "http://geo.linkeddata.es/ontology/Albufera",
+        "http://geo.linkeddata.es/ontology/Laguna_Salada"
+      ]
+    },
+    {
+      "name": "FenomenoHidrografico",
+      "entities": [
+        "http://geo.linkeddata.es/ontology/Fen\u00f3meno_hidrogr\u00e1fic",
+        "http://geo.linkeddata.es/ontology/Fen\u00f3meno_hidrogr\u00e1fico"
+      ]
+    },
+    {
+      "name": "CanalAguasMarinas",
+      "entities": [
+        "http://geo.linkeddata.es/ontology/Canal_Marino",
+        "http://geo.linkeddata.es/ontology/Canal_Aguas_Marinas",
+        "http://geo.linkeddata.es/ontology/conduce",
+        "http://geo.linkeddata.es/ontology/Gola",
+        "http://geo.linkeddata.es/ontology/Ca\u00f1o",
+        "http://geo.linkeddata.es/ontology/Brazo"
+      ]
+    },
+    {
+      "name": "Canal",
+      "entities": [
+        "http://geo.linkeddata.es/ontology/Canal_de_Lago"
+      ]
+    },
+    {
+      "name": "HidronimoPuntual",
+      "entities": [
+        "http://geo.linkeddata.es/ontology/Captaci\u00f3n",
+        "http://geo.linkeddata.es/ontology/hydro-ontology.owl#desagua_en",
+        "http://geo.linkeddata.es/ontology/hydro-ontology.owl#precedeA",
+        "http://geo.linkeddata.es/ontology/Confluencia",
+        "http://geo.linkeddata.es/ontology/captura",
+        "http://geo.linkeddata.es/ontology/hydro-ontology.owl#sigueA",
+        "http://geo.linkeddata.es/ontology/Hidr\u00f3nimo_Puntual",
+        "http://geo.linkeddata.es/ontology/Desembocadura"
+      ]
+    },
+    {
+      "name": "Manatial",
+      "entities": [
+        "http://geo.linkeddata.es/ontology/Terma",
+        "http://geo.linkeddata.es/ontology/Fuente_Artesana",
+        "http://geo.linkeddata.es/ontology/se_extrae",
+        "http://geo.linkeddata.es/ontology/Ojo",
+        "http://geo.linkeddata.es/ontology/Nacimiento",
+        "http://geo.linkeddata.es/ontology/Manantial"
+      ],
+      "submodules": [
+        {
+          "name": "Fuente_Natural",
+          "entities": [
+            "http://geo.linkeddata.es/ontology/G\u00e9iser",
+            "http://geo.linkeddata.es/ontology/Fuente_Natural"
+          ]
+        }
+      ]
+    },
+    {
+      "name": "Fuente",
+      "entities": [
+        "http://geo.linkeddata.es/ontology/Fuente_Vauclusiana"
+      ]
+    },
+    {
+      "name": "CursosDeAguaNaturales",
+      "entities": [
+        "http://geo.linkeddata.es/ontology/Glaciar",
+        "http://geo.linkeddata.es/ontology/es_afluente_de"
+      ]
+    },
+    {
+      "name": "MasaDeAguaSubterranea",
+      "entities": [
+        "http://geo.linkeddata.es/ontology/Lago_Subterr\u00e1no"
+      ]
+    },
+    {
+      "name": "ZonaEncharcable",
+      "entities": [
+        "http://geo.linkeddata.es/ontology/Basines",
+        "http://geo.linkeddata.es/ontology/Llanura_de_Inundaci\u00f3n",
+        "http://geo.linkeddata.es/ontology/Zona_Encharcable",
+        "http://geo.linkeddata.es/ontology/es_inundada_por"
+      ]
+    }
+  ],
+  "hydro3": [
+    {
+      "name": "Boundary",
+      "entities": [
+        "http://spatial.maine.edu/semgaz/HydroOntology#hasSaltWaterBay",
+        "http://spatial.maine.edu/semgaz/HydroOntology#Watershed",
+        "http://spatial.maine.edu/semgaz/HydroOntology#Boundary",
+        "http://spatial.maine.edu/semgaz/HydroOntology#isSubWatershedOf",
+        "http://spatial.maine.edu/semgaz/HydroOntology#hasSubWatershed",
+        "http://spatial.maine.edu/semgaz/HydroOntology#Coastline"
+      ]
+    },
+    {
+      "name": "HydrographicStructure",
+      "entities": [
+        "http://spatial.maine.edu/semgaz/HydroOntology#isGagingStationOf",
+        "http://spatial.maine.edu/semgaz/HydroOntology#Hydrographic_Structure",
+        "http://spatial.maine.edu/semgaz/HydroOntology#Levee",
+        "http://spatial.maine.edu/semgaz/HydroOntology#GagingStation",
+        "http://spatial.maine.edu/semgaz/HydroOntology#DamWeir",
+        "http://spatial.maine.edu/semgaz/HydroOntology#isDamOf"
+      ]
+    },
+    {
+      "name": "Hydrographic_Feature",
+      "entities": [
+        "http://spatial.maine.edu/semgaz/HydroOntology#SaltWater_Feature",
+        "http://spatial.maine.edu/semgaz/HydroOntology#Hydrographic_Feature"
+      ],
+      "submodules": [
+        {
+          "name": "FreshWaterFeature",
+          "entities": [
+            "http://spatial.maine.edu/semgaz/HydroOntology#hasTributary",
+            "http://spatial.maine.edu/semgaz/HydroOntology#Spring",
+            "http://spatial.maine.edu/semgaz/HydroOntology#FreshWater_Feature",
+            "http://spatial.maine.edu/semgaz/HydroOntology#hasSource",
+            "http://spatial.maine.edu/semgaz/HydroOntology#flowsthrough",
+            "http://spatial.maine.edu/semgaz/HydroOntology#Falls",
+            "http://spatial.maine.edu/semgaz/HydroOntology#River",
+            "http://spatial.maine.edu/semgaz/HydroOntology#flowsfrom",
+            "http://spatial.maine.edu/semgaz/HydroOntology#isFreshWaterBayOf",
+            "http://spatial.maine.edu/semgaz/HydroOntology#hasDam",
+            "http://spatial.maine.edu/semgaz/HydroOntology#flowsinto",
+            "http://spatial.maine.edu/semgaz/HydroOntology#Lake",
+            "http://spatial.maine.edu/semgaz/HydroOntology#isPartOf",
+            "http://spatial.maine.edu/semgaz/HydroOntology#isMainStemOf",
+            "http://spatial.maine.edu/semgaz/HydroOntology#hasGagingStation",
+            "http://spatial.maine.edu/semgaz/HydroOntology#hasFreshWaterBay",
+            "http://spatial.maine.edu/semgaz/HydroOntology#hasPart",
+            "http://spatial.maine.edu/semgaz/HydroOntology#hasInflow",
+            "http://spatial.maine.edu/semgaz/HydroOntology#isTributaryOf",
+            "http://spatial.maine.edu/semgaz/HydroOntology#hasOutflow",
+            "http://spatial.maine.edu/semgaz/HydroOntology#hasRapids",
+            "http://spatial.maine.edu/semgaz/HydroOntology#Reservoir",
+            "http://spatial.maine.edu/semgaz/HydroOntology#hasMainStem",
+            "http://spatial.maine.edu/semgaz/HydroOntology#hasMouth",
+            "http://spatial.maine.edu/semgaz/HydroOntology#isDownstreamTo",
+            "http://spatial.maine.edu/semgaz/HydroOntology#Wetlands",
+            "http://spatial.maine.edu/semgaz/HydroOntology#isSourceOf",
+            "http://spatial.maine.edu/semgaz/HydroOntology#FreshwaterBay",
+            "http://spatial.maine.edu/semgaz/HydroOntology#isMouthOf",
+            "http://spatial.maine.edu/semgaz/HydroOntology#isUpstreamOf"
+          ],
+          "submodules": [
+            {
+              "name": "Rapid",
+              "entities": [
+                "http://spatial.maine.edu/semgaz/HydroOntology#isRapidsOf",
+                "http://spatial.maine.edu/semgaz/HydroOntology#Rapids"
+              ]
+            }
+          ]
+        },
+        {
+          "name": "SaltwaterFeature",
+          "entities": [
+            "http://spatial.maine.edu/semgaz/HydroOntology#Ocean",
+            "http://spatial.maine.edu/semgaz/HydroOntology#isSaltWaterBayOf",
+            "http://spatial.maine.edu/semgaz/HydroOntology#SaltWaterBay"
+          ]
+        }
+      ]
+    },
+    {
+      "name": "Misc",
+      "entities": [
+        "http://spatial.maine.edu/semgaz/HydroOntology#hasHydrographicStructure",
+        "http://www.w3.org/2002/07/owl#ObjectProperty",
+        "http://spatial.maine.edu/semgaz/HydroOntology#hasHydrographicPart",
+        "http://spatial.maine.edu/semgaz/HydroOntology#isHydrologicallyConnectedTo",
+        "http://spatial.maine.edu/semgaz/HydroOntology#hasHydrographicRelation",
+        "http://spatial.maine.edu/semgaz/HydroOntology#hasHydrologicPart",
+        "http://spatial.maine.edu/semgaz/HydroOntology#isHydrologicPartOf"
+      ]
+    }
+  ]
+}

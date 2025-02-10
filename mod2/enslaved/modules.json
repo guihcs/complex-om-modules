@@ -1,0 +1,404 @@
+{
+  "enslaved": [
+    {
+      "name": "Agent",
+      "entities": [
+        "https://enslaved.org/ontology/Person",
+        "https://enslaved.org/ontology/Agent",
+        "https://enslaved.org/ontology/Organization"
+      ]
+    },
+    {
+      "name": "AgeCategory",
+      "entities": [
+        "https://enslaved.org/ontology/AgeCategory",
+        "https://enslaved.org/ontology/hasAgeValue"
+      ]
+    },
+    {
+      "name": "ExternalReference",
+      "entities": [
+        "https://enslaved.org/ontology/ExternalReferent",
+        "https://enslaved.org/ontology/ExternalReference"
+      ]
+    },
+    {
+      "name": "Researcher",
+      "entities": [
+        "https://enslaved.org/ontology/ResearchProjectPIRole",
+        "https://enslaved.org/ontology/providesParticipantRole",
+        "https://enslaved.org/ontology/ResearchProjectContributorRole",
+        "https://enslaved.org/ontology/Researcher"
+      ]
+    },
+    {
+      "name": "TemporalExtent",
+      "entities": [
+        "https://enslaved.org/ontology/fallsWithin",
+        "https://enslaved.org/ontology/occursBefore",
+        "https://enslaved.org/ontology/endsAt",
+        "https://enslaved.org/ontology/contains",
+        "https://enslaved.org/ontology/startsAt",
+        "https://enslaved.org/ontology/TemporalExtent",
+        "https://enslaved.org/ontology/TimeSpan",
+        "https://enslaved.org/ontology/occursAfter"
+      ]
+    },
+    {
+      "name": "SpatialExtent",
+      "entities": [
+        "https://enslaved.org/ontology/hasLongitude",
+        "https://enslaved.org/ontology/Coordinates",
+        "https://enslaved.org/ontology/hasLatitude",
+        "https://enslaved.org/ontology/SpatialExtent"
+      ]
+    },
+    {
+      "name": "Occupations",
+      "entities": [
+        "https://enslaved.org/ontology/Occupations"
+      ]
+    },
+    {
+      "name": "AgentRecord",
+      "entities": [
+        "https://enslaved.org/ontology/hasNameVariant",
+        "https://enslaved.org/ontology/PersonRecord",
+        "https://enslaved.org/ontology/NameRecord",
+        "https://enslaved.org/ontology/PersonStatusRecord",
+        "https://enslaved.org/ontology/RaceRecord",
+        "https://enslaved.org/ontology/hasECVO",
+        "https://enslaved.org/ontology/AgeRecord",
+        "https://enslaved.org/ontology/NameVariant",
+        "https://enslaved.org/ontology/SexRecord",
+        "https://enslaved.org/ontology/refersToPlaceOfOrigin",
+        "https://enslaved.org/ontology/hasStatusGeneratedEvent",
+        "https://enslaved.org/ontology/OccupationRecord",
+        "https://enslaved.org/ontology/OriginRecord",
+        "https://enslaved.org/ontology/AgentRecord"
+      ],
+      "submodules": [
+        {
+          "name": "InterAgentRelationshipRecord",
+          "entities": [
+            "https://enslaved.org/ontology/isRelationshipFrom",
+            "https://enslaved.org/ontology/InterAgentRelationshipTypes",
+            "https://enslaved.org/ontology/InterAgentRelationshipRecord",
+            "https://enslaved.org/ontology/hasInterAgentRelationshipType",
+            "https://enslaved.org/ontology/hasInterAgentRelationshipRecord",
+            "https://enslaved.org/ontology/isRelationshipTo"
+          ]
+        },
+        {
+          "name": "ParticipantRoleRecord",
+          "entities": [
+            "https://enslaved.org/ontology/ParticipantRoleTypes",
+            "https://enslaved.org/ontology/ParticipantRoleRecord",
+            "https://enslaved.org/ontology/hasParticipantRoleType"
+          ]
+        }
+      ]
+    },
+    {
+      "name": "Event",
+      "entities": [
+        "https://enslaved.org/ontology/Event",
+        "https://enslaved.org/ontology/hasEventType",
+        "https://enslaved.org/ontology/subeventOf",
+        "https://enslaved.org/ontology/EventTypes",
+        "https://enslaved.org/ontology/atPlace"
+      ]
+    },
+    {
+      "name": "EntityWithProvenance",
+      "entities": [
+        "https://enslaved.org/ontology/generatedBy",
+        "https://enslaved.org/ontology/EntityWithProvenance",
+        "https://enslaved.org/ontology/availableFrom",
+        "https://enslaved.org/ontology/isDirectlyBasedOn",
+        "https://enslaved.org/ontology/LicenseInformation",
+        "https://enslaved.org/ontology/DocumentTypes",
+        "https://enslaved.org/ontology/attributedTo",
+        "https://enslaved.org/ontology/hasOriginalSourceType",
+        "https://enslaved.org/ontology/hasLicenseInformation",
+        "https://enslaved.org/ontology/Description"
+      ]
+    },
+    {
+      "name": "ExternalReference",
+      "entities": [
+        "https://enslaved.org/ontology/refersTo",
+        "https://enslaved.org/ontology/withID"
+      ]
+    },
+    {
+      "name": "SexTypes",
+      "entities": [
+        "https://enslaved.org/ontology/SexTypes"
+      ]
+    },
+    {
+      "name": "Misc",
+      "entities": [
+        "https://enslaved.org/ontology/hasSpatialExtent",
+        "https://enslaved.org/ontology/isSpatiallyLocatedIn",
+        "https://enslaved.org/ontology/hasBroader",
+        "https://enslaved.org/ontology/roleProvidedBy",
+        "https://enslaved.org/ontology/refersToEvent",
+        "https://enslaved.org/ontology/hasPreferredNameVariant",
+        "https://enslaved.org/ontology/hasFirstNameAsString",
+        "https://enslaved.org/ontology/hasOccupationRecord",
+        "http://ontologydesignpatterns.org/opla#isNativeTo",
+        "http://purl.org/dc/elements/1.1/title",
+        "http://purl.org/dc/terms/creator",
+        "https://enslaved.org/ontology/hasSexRecord",
+        "https://enslaved.org/ontology/hasOriginRecord",
+        "https://enslaved.org/ontology/agentRecordSelfProperty",
+        "https://enslaved.org/ontology/hasAlternateName",
+        "http://purl.org/dc/terms/rights",
+        "https://enslaved.org/ontology/fullNameAsString",
+        "https://enslaved.org/ontology/hasPersonStatusRecord",
+        "https://enslaved.org/ontology/hasRaceRecord",
+        "http://schema.org/description",
+        "https://enslaved.org/ontology/recordedAt",
+        "https://enslaved.org/ontology/hasReferenceURI",
+        "https://enslaved.org/ontology/hasExternalReference",
+        "https://enslaved.org/ontology/EVCO",
+        "http://purl.org/dc/terms/license",
+        "https://enslaved.org/ontology/hasName",
+        "https://enslaved.org/ontology/hasValue",
+        "https://enslaved.org/ontology/hasParticipantRoleRecord",
+        "https://enslaved.org/ontology/hasNameRecord",
+        "https://enslaved.org/ontology/hasAgeRecord",
+        "https://enslaved.org/ontology/hasDescription",
+        "https://enslaved.org/ontology/hasAgentRecord",
+        "https://enslaved.org/ontology/asText",
+        "https://enslaved.org/ontology/eventSelfProperty",
+        "https://enslaved.org/ontology/hasTemporalExtent",
+        "https://enslaved.org/ontology/hasPersonRecord",
+        "https://enslaved.org/ontology/isAdministrativePartOf",
+        "https://enslaved.org/ontology/reportsOn",
+        "https://enslaved.org/ontology/hasSurnameAsString"
+      ]
+    },
+    {
+      "name": "PSCotegories",
+      "entities": [
+        "https://enslaved.org/ontology/PSCategories"
+      ]
+    },
+    {
+      "name": "Occupations",
+      "entities": [
+        "https://enslaved.org/ontology/Occupations"
+      ]
+    },
+    {
+      "name": "ECVO",
+      "entities": [
+        "https://enslaved.org/ontology/ECVO"
+      ]
+    },
+    {
+      "name": "Place",
+      "entities": [
+        "https://enslaved.org/ontology/hasCoordinates",
+        "https://enslaved.org/ontology/Place",
+        "https://enslaved.org/ontology/hasPlaceTypeCV",
+        "https://enslaved.org/ontology/PlaceTypeCV",
+        "https://enslaved.org/ontology/PlaceCV"
+      ]
+    },
+    {
+      "name": "ResearchProject",
+      "entities": [
+        "https://enslaved.org/ontology/performedBy",
+        "https://enslaved.org/ontology/ProvenanceActivity",
+        "https://enslaved.org/ontology/used",
+        "https://enslaved.org/ontology/ResearchProject"
+      ]
+    }
+  ],
+  "wikidata": [
+    {
+      "name": "Record",
+      "entities": [
+        "https://lod.enslaved.org/prop/statement/P15",
+        "https://lod.enslaved.org/prop/P15"
+      ]
+    },
+    {
+      "name": "Role",
+      "entities": [
+        "https://lod.enslaved.org/prop/qualifier/P19"
+      ]
+    },
+    {
+      "name": "Agent",
+      "entities": [
+        "https://lod.enslaved.org/prop/statement/P33",
+        "https://lod.enslaved.org/prop/qualifier/P18",
+        "https://lod.enslaved.org/prop/P73",
+        "https://lod.enslaved.org/prop/P33",
+        "https://lod.enslaved.org/prop/statement/P39",
+        "https://lod.enslaved.org/prop/P39",
+        "https://lod.enslaved.org/prop/P42",
+        "https://lod.enslaved.org/entity/Q424",
+        "https://lod.enslaved.org/prop/P72",
+        "https://lod.enslaved.org/entity/Q410",
+        "https://lod.enslaved.org/prop/P20",
+        "https://lod.enslaved.org/prop/direct/P4",
+        "https://lod.enslaved.org/prop/P22"
+      ],
+      "submodules": [
+        {
+          "name": "Person",
+          "entities": [
+            "https://lod.enslaved.org/prop/P32",
+            "https://lod.enslaved.org/prop/statement/P42",
+            "https://lod.enslaved.org/prop/statement/P31",
+            "https://lod.enslaved.org/prop/P31",
+            "https://lod.enslaved.org/prop/statement/P22"
+          ]
+        }
+      ]
+    },
+    {
+      "name": "AgeCategory",
+      "entities": [
+        "https://lod.enslaved.org/entity/Q412"
+      ]
+    },
+    {
+      "name": "Statement",
+      "entities": [
+        "http://wikiba.se/ontology#Statement"
+      ]
+    },
+    {
+      "name": "Misc",
+      "entities": [
+        "https://lod.enslaved.org/entity/205",
+        "https://lod.enslaved.org/prop/statement/P17",
+        "https://lod.enslaved.org/prop/statement/P20",
+        "https://lod.enslaved.org/prop/P17",
+        "https://lod.enslaved.org/prop/statement/P16",
+        "https://lod.enslaved.org/prop/reference/P21",
+        "https://lod.enslaved.org/prop/reference/P6",
+        "https://lod.enslaved.org/prop/statement/P72",
+        "https://lod.enslaved.org/prop/statement/P46",
+        "https://lod.enslaved.org/prop/P16",
+        "https://lod.enslaved.org/prop/statement/P25",
+        "https://lod.enslaved.org/prop/P25",
+        "https://lod.enslaved.org/prop/direct/P3",
+        "https://lod.enslaved.org/prop/qualifier/P34",
+        "http://www.w3.org/ns/prov#wasDerivedFrom",
+        "https://lod.enslaved.org/prop/P71",
+        "http://wikiba.se/ontology#Reference",
+        "https://lod.enslaved.org/prop/statement/P32",
+        "https://lod.enslaved.org/prop/statement/P71",
+        "http://schema.org/description",
+        "https://lod.enslaved.org/prop/P46",
+        "https://lod.enslaved.org/prop/direct/P1",
+        "https://lod.enslaved.org/prop/qualifier/P47",
+        "https://lod.enslaved.org/prop/statement/P47",
+        "https://lod.enslaved.org/prop/qualifier/P40",
+        "https://lod.enslaved.org/prop/statement/P40",
+        "https://lod.enslaved.org/prop/statement/P73"
+      ]
+    },
+    {
+      "name": "Event",
+      "entities": [
+        "https://lod.enslaved.org/entity/Q282",
+        "https://lod.enslaved.org/prop/statement/P30",
+        "https://lod.enslaved.org/prop/P63",
+        "https://lod.enslaved.org/prop/statement/P63",
+        "https://lod.enslaved.org/prop/P27",
+        "https://lod.enslaved.org/prop/P28",
+        "https://lod.enslaved.org/prop/statement/P28",
+        "https://lod.enslaved.org/prop/P30",
+        "https://lod.enslaved.org/entity/Q238",
+        "https://lod.enslaved.org/prop/statement/P27"
+      ]
+    },
+    {
+      "name": "EntityWithProvenance",
+      "entities": [
+        "https://lod.enslaved.org/entity/Q67",
+        "https://lod.enslaved.org/prop/P23",
+        "https://lod.enslaved.org/prop/statement/P23"
+      ]
+    },
+    {
+      "name": "Sex",
+      "entities": [
+        "https://lod.enslaved.org/entity/Q291"
+      ]
+    },
+    {
+      "name": "PersonStatus",
+      "entities": [
+        "https://lod.enslaved.org/entity/Q375"
+      ]
+    },
+    {
+      "name": "Occupation",
+      "entities": [
+        "https://lod.enslaved.org/entity/Q108"
+      ]
+    },
+    {
+      "name": "RoleInALifeEvent",
+      "entities": [
+        "https://lod.enslaved.org/entity/Q316"
+      ]
+    },
+    {
+      "name": "EthnolinguisticDescriptor",
+      "entities": [
+        "https://lod.enslaved.org/entity/Q298"
+      ]
+    },
+    {
+      "name": "Place",
+      "entities": [
+        "https://lod.enslaved.org/prop/P74",
+        "https://lod.enslaved.org/entity/Q303403",
+        "https://lod.enslaved.org/prop/P59",
+        "https://lod.enslaved.org/prop/statement/P59",
+        "https://lod.enslaved.org/prop/statement/P74",
+        "https://lod.enslaved.org/prop/statement/P8",
+        "https://lod.enslaved.org/entity/Q301",
+        "https://lod.enslaved.org/entity/Q205",
+        "https://lod.enslaved.org/prop/P8"
+      ]
+    },
+    {
+      "name": "InteragentRelationship",
+      "entities": [
+        "https://lod.enslaved.org/entity/Q463"
+      ]
+    },
+    {
+      "name": "ResearchProject",
+      "entities": [
+        "https://lod.enslaved.org/entity/Q172"
+      ]
+    },
+    {
+      "name": "LicenseInformation",
+      "entities": [
+        "https://lod.enslaved.org/entity/Q433"
+      ]
+    },
+    {
+      "name": "Document",
+      "entities": [
+        "https://lod.enslaved.org/prop/P26",
+        "https://lod.enslaved.org/prop/statement/P26",
+        "https://lod.enslaved.org/entity/Q122"
+      ]
+    }
+  ]
+}

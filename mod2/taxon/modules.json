@@ -1,0 +1,199 @@
+{
+  "taxon": [
+    {
+      "name": "Taxon",
+      "entities": [
+        "http://ontology.irstea.fr/agronomictaxon/core#FamilyRank",
+        "http://ontology.irstea.fr/agronomictaxon/core#hasClass",
+        "http://ontology.irstea.fr/agronomictaxon/core#KingdomRank",
+        "http://ontology.irstea.fr/agronomictaxon/core#hasKingdom",
+        "http://ontology.irstea.fr/agronomictaxon/core#VarietyRank",
+        "http://ontology.irstea.fr/agronomictaxon/core#includesPhylum",
+        "http://ontology.irstea.fr/agronomictaxon/core#includesGenus",
+        "http://ontology.irstea.fr/agronomictaxon/core#SpecyRank",
+        "urn:absolute:ontology.irstea.fr/agronomicTaxon/ressource/goldStandard#SubClassRank",
+        "http://ontology.irstea.fr/agronomictaxon/core#hasSpecies",
+        "http://ontology.irstea.fr/agronomictaxon/core#hasHigherRank",
+        "urn:absolute:ontology.irstea.fr/agronomicTaxon/ressource/goldStandard#SubSpecyRank",
+        "http://ontology.irstea.fr/agronomictaxon/core#includesClass",
+        "http://ontology.irstea.fr/agronomictaxon/core#includesOrder",
+        "http://ontology.irstea.fr/agronomictaxon/core#OrderRank",
+        "http://ontology.irstea.fr/agronomictaxon/core#hasGenus",
+        "http://ontology.irstea.fr/agronomictaxon/core#Taxon",
+        "http://ontology.irstea.fr/agronomictaxon/core#hasLowerRank",
+        "urn:absolute:ontology.irstea.fr/agronomicTaxon/ressource/goldStandard#SuperOrderRank",
+        "http://ontology.irstea.fr/agronomictaxon/core#includesSpecies",
+        "urn:absolute:ontology.irstea.fr/agronomicTaxon/ressource/goldStandard#SubKingdomRank",
+        "http://ontology.irstea.fr/agronomictaxon/core#hasOrder",
+        "http://ontology.irstea.fr/agronomictaxon/core#includesFamily",
+        "http://ontology.irstea.fr/agronomictaxon/core#hasFamily",
+        "http://ontology.irstea.fr/agronomictaxon/core#ClassRank",
+        "http://ontology.irstea.fr/agronomictaxon/core#PhylumRank",
+        "http://ontology.irstea.fr/agronomictaxon/core#hasPhylum",
+        "http://ontology.irstea.fr/agronomictaxon/core#GenusRank",
+        "http://ontology.irstea.fr/agronomictaxon/core#includesVariety"
+      ]
+    },
+    {
+      "name": "Concept",
+      "entities": [
+        "http://ontology.irstea.fr/AgronomicTaxon#memberScheme",
+        "http://www.w3.org/2004/02/skos/core#inScheme",
+        "http://www.w3.org/2004/02/skos/core#Concept",
+        "http://ontology.irstea.fr/agronomictaxon/core#Taxonomy",
+        "http://www.w3.org/2004/02/skos/core#ConceptScheme"
+      ]
+    },
+    {
+      "name": "Misc",
+      "entities": [
+        "http://ontology.irstea.fr/agronomictaxon/core#hasScientificName",
+        "http://ontology.irstea.fr/agronomictaxon/core#altScientificName",
+        "http://ontology.irstea.fr/agronomictaxon/core#prefScientificName",
+        "http://ontology.irstea.fr/agronomictaxon/core#altVernacularName",
+        "http://ontology.irstea.fr/agronomictaxon/core#hasVernacularName",
+        "http://ontology.irstea.fr/agronomictaxon/core#prefVernacularName"
+      ]
+    },
+    {
+      "name": "Variety",
+      "entities": [
+        "http://ontology.irstea.fr/agronomictaxon/core#Variety"
+      ]
+    }
+  ],
+  "agrovoc": [
+    {
+      "name": "Misc",
+      "entities": [
+        "http://www.w3.org/2002/07/owl#inverseOf",
+        "http://aims.fao.org/aos/agrontology#isComposedOf",
+        "http://aims.fao.org/aos/agrontology#hasTheme",
+        "http://www.w3.org/2000/01/rdf-schema#domain",
+        "http://aims.fao.org/aos/agrontology#spellingVariant",
+        "http://aims.fao.org/aos/agrovoc/c_330937",
+        "http://www.w3.org/2000/01/rdf-schema#Resource",
+        "http://www.w3.org/2000/01/rdf-schema#subPropertyOf",
+        "http://aims.fao.org/aos/agrontology#hasScientificName",
+        "http://aims.fao.org/aos/agrovoc/c_330936",
+        "http://aims.fao.org/aos/agrovoc/c_11125",
+        "http://aims.fao.org/aos/agrontology#hasBroaderSynonym",
+        "http://www.w3.org/2008/05/skos-xl#literalForm",
+        "http://www.w3.org/2002/07/owl#AnnotationProperty",
+        "http://www.w3.org/2000/01/rdf-schema#range",
+        "http://aims.fao.org/aos/agrontology#hasSynonym",
+        "http://aims.fao.org/aos/agrontology#hasTaxonomicRank",
+        "http://aims.fao.org/aos/agrontology#includes",
+        "http://aims.fao.org/aos/agrontology#isUsedAs",
+        "http://aims.fao.org/aos/agrontology#isThemeOf",
+        "http://aims.fao.org/aos/agrontology#growsln",
+        "http://www.w3.org/2002/07/owl#FunctionalProperty",
+        "http://aims.fao.org/aos/agrovoc/c_7624",
+        "http://www.w3.org/2000/01/rdf-schema#label",
+        "http://www.w3.org/2002/07/owl#SymmetricProperty",
+        "http://aims.fao.org/aos/agrontology#hasPractice",
+        "http://aims.fao.org/aos/agrovoc/c_330949",
+        "http://aims.fao.org/aos/agrontology#produces",
+        "http://aims.fao.org/aos/agrovoc/c_330935",
+        "http://www.w3.org/2002/07/owl#ObjectProperty",
+        "http://www.w3.org/2000/01/rdf-schema#isDefinedBy",
+        "http://aims.fao.org/aos/agrontology#hasGoalOrProcess",
+        "http://aims.fao.org/aos/agrontology#isDerivedFrom",
+        "http://www.w3.org/2004/02/skos/core#narrower",
+        "http://www.w3.org/2000/01/rdf-schema#Class",
+        "http://www.w3.org/2004/02/skos/core#altLabel",
+        "http://aims.fao.org/aos/agrontology#hasMember",
+        "http://aims.fao.org/aos/agrontology#usesProcess",
+        "http://aims.fao.org/aos/agrontology#hasNearSynonym",
+        "http://www.w3.org/2004/02/skos/core#broader",
+        "http://aims.fao.org/aos/agrovoc/c_1423211760123",
+        "http://aims.fao.org/aos/agrovoc/c_331243",
+        "http://www.w3.org/2000/01/rdf-schema#subClassOf",
+        "http://aims.fao.org/aos/agrontology#hasObjectOfActivity",
+        "http://www.w3.org/2002/07/owl#DatatypeProperty",
+        "http://aims.fao.org/aos/agrontology#influences",
+        "http://aims.fao.org/aos/agrontology#makeUseOf",
+        "http://www.w3.org/1999/02/22-rdf-syntax-ns#Property",
+        "http://www.w3.org/2008/05/skos-xl#Label",
+        "http://aims.fao.org/aos/agrontology#hasComponent",
+        "http://aims.fao.org/aos/agrontology#hasTermType",
+        "http://aims.fao.org/aos/agrovoc/c_330934",
+        "http://aims.fao.org/aos/agrontology#hasProduct",
+        "http://www.w3.org/2000/01/rdf-schema#comment",
+        "http://www.w3.org/2008/05/skos-xl#prefLabel",
+        "http://www.w3.org/2008/05/skos-xl#altLabel"
+      ]
+    },
+    {
+      "name": "Concept",
+      "entities": [
+        "http://aims.fao.org/aos/agrontology#hasSymptom",
+        "http://aims.fao.org/aos/agrontology#isPartOfSubvocabulary",
+        "http://aims.fao.org/aos/agrontology#hasDisease",
+        "http://www.w3.org/2004/02/skos/core#Concept"
+      ]
+    }
+  ],
+  "taxref": [
+    {
+      "name": "TaxonomicRank",
+      "entities": [
+        "http://taxref.mnhn.fr/lod/taxrank/Kingdom",
+        "http://taxref.mnhn.fr/lod/taxrank/TaxonomicRank",
+        "http://taxref.mnhn.fr/lod/taxrank/Varietas",
+        "http://taxref.mnhn.fr/lod/taxrank/Genus",
+        "http://taxref.mnhn.fr/lod/taxrank/Family",
+        "http://taxref.mnhn.fr/lod/taxrank/Order",
+        "http://taxref.mnhn.fr/lod/taxrank/Class"
+      ]
+    },
+    {
+      "name": "Kingdom",
+      "entities": [
+        "http://taxref.mnhn.fr/lod/taxrank/kingdom"
+      ]
+    },
+    {
+      "name": "Phylum",
+      "entities": [
+        "http://taxref.mnhn.fr/lod/taxrank/Phylum"
+      ]
+    },
+    {
+      "name": "Species",
+      "entities": [
+        "http://taxref.mnhn.fr/lod/taxrank/Species"
+      ]
+    },
+    {
+      "name": "Misc",
+      "entities": [
+        "http://taxref.mnhn.fr/lod/property/vernacularName",
+        "http://www.w3.org/2000/01/rdf-schema#label",
+        "http://taxref.mnhn.fr/lod/property/hasRank"
+      ]
+    }
+  ],
+  "dbpedia": [
+    {
+      "name": "Species",
+      "entities": [
+        "http://dbpedia.org/ontology/kingdom",
+        "http://dbpedia.org/ontology/order",
+        "http://dbpedia.org/ontology/family",
+        "http://dbpedia.org/ontology/Species",
+        "http://dbpedia.org/ontology/genus",
+        "http://dbpedia.org/ontology/phylum"
+      ]
+    },
+    {
+      "name": "Misc",
+      "entities": [
+        "http://ns.inria.org/edoal/1.0/#greater-than",
+        "http://www.w3.org/2000/01/rdf-schema#label",
+        "http://dbpedia.org/ontology/classis",
+        "http://dbpedia.org/ontology/class"
+      ]
+    }
+  ]
+}
